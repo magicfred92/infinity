@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Infinity Job Radar</title>
+<meta name="description" content="Offres d'emploi à Genève, Lausanne et en Suisse romande, triées automatiquement par pertinence pour le profil de Frédéric Crousaz." />
+<link rel="icon" href="assets/infinity-logo.png" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <img class="logo" src="assets/infinity-logo.png" alt="Infinity" />
+    <div class="header-text">
+      <h1>Infinity Job Radar</h1>
+      <p id="profile-line" class="subtitle">Chargement du profil…</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="status-banner" class="banner" hidden></section>
+
+    <section class="toolbar" aria-label="Filtres">
+      <input id="search-input" type="search" placeholder="Rechercher (titre, entreprise, mot-clé)…" />
+
+      <select id="region-filter">
+        <option value="">Toutes les régions</option>
+        <option value="GE">Genève</option>
+        <option value="VD">Vaud / Lausanne</option>
+        <option value="FR">Fribourg</option>
+        <option value="VS">Valais</option>
+        <option value="NE">Neuchâtel</option>
+        <option value="JU">Jura</option>
+        <option value="ROMANDIE">Suisse romande (non précisé)</option>
+        <option value="__unknown">Localisation inconnue</option>
+      </select>
+
+      <div id="source-filter" class="source-filter" aria-label="Sources"></div>
+
+      <label class="score-filter">
+        Pertinence min. <output id="min-score-output">0</output>%
+        <input id="min-score" type="range" min="0" max="100" step="5" value="0" />
+      </label>
+
+      <select id="sort-select">
+        <option value="score">Trier par pertinence</option>
+        <option value="date">Trier par date</option>
+      </select>
+    </section>
+
+    <p id="results-count" class="results-count"></p>
+
+    <section id="job-list" class="job-list" aria-live="polite"></section>
+    <p id="empty-state" class="empty-state" hidden>Aucune offre ne correspond à ces filtres.</p>
+  </main>
+
+  <section id="sources-panel" class="sources-panel">
+    <button id="sources-toggle" class="sources-toggle" type="button" aria-expanded="false">
+      ⚙️ Gérer les sites à scraper
+    </button>
+
+    <div id="sources-body" class="sources-body" hidden>
+      <p class="hint">
+        Ajoute ici un nouveau site d'offres d'emploi à surveiller. Ça ne marche que pour des
+        sites qui exposent une liste d'offres consultable sans connexion et qui décrivent
+        chaque offre avec le standard <code>schema.org/JobPosting</code> (la plupart des
+        portails d'emploi grand public le font pour être indexés par Google for Jobs) — les
+        sites bloqués derrière une connexion (LinkedIn, la plupart des ATS d'entreprise) ne
+        fonctionneront pas ici.
+      </p>
+
+      <div id="gh-token-box" class="token-box">
+        <span id="gh-token-status">Aucun token GitHub enregistré — lecture seule.</span>
+        <button id="gh-token-edit" type="button">Configurer l'accès en écriture</button>
+      </div>
+
+      <table id="sources-table" class="sources-table">
+        <thead>
+          <tr><th>Actif</th><th>Nom</th><th>URL</th><th>Offres (dernier run)</th><th></th></tr>
+        </thead>
+        <tbody id="sources-table-body"></tbody>
+      </table>
+
+      <form id="add-source-form" class="add-source-form">
+        <h3>Ajouter un site</h3>
+        <div class="form-grid">
+          <label>Nom affiché
+            <input name="name" required placeholder="ex: indeed.ch" />
+          </label>
+          <label>URL de base
+            <input name="base_url" required placeholder="https://www.exemple.ch" />
+          </label>
+          <label>Chemin de la page de recherche
+            <input name="search_path" required placeholder="/fr/emplois/" />
+          </label>
+          <label>Nom du paramètre de recherche
+            <input name="term_param" value="term" required />
+          </label>
+          <label>Nom du paramètre de localisation (laisser vide si inconnu)
+            <input name="location_param" placeholder="ex: location" />
+          </label>
+          <label class="full">Indices d'URL des pages d'offre (séparés par des virgules)
+            <input name="detail_link_hints" required placeholder="/emplois/detail/, /job/" />
+          </label>
+        </div>
+        <button type="submit">+ Ajouter ce site</button>
+        <p id="add-source-feedback" class="feedback" hidden></p>
+      </form>
+
+      <button id="trigger-scrape" type="button" class="trigger-scrape">
+        ▶️ Lancer un scraping maintenant
+      </button>
+      <p id="trigger-feedback" class="feedback" hidden></p>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <p>Usage personnel. Respecte le robots.txt de chaque site scrappé et ne cible que des
+      pages publiques. Dernière mise à jour : <span id="last-updated">—</span>.</p>
+  </footer>
+
+  <div id="token-modal" class="modal" hidden>
+    <div class="modal-content">
+      <h3>Accès en écriture GitHub</h3>
+      <p>
+        Pour ajouter/retirer des sites ou lancer un scraping depuis cette page, il faut un
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">
+          token d'accès personnel GitHub (fine-grained)</a> limité à ce dépôt, avec les permissions
+        <strong>Contents: Read and write</strong> et <strong>Actions: Read and write</strong>.
+      </p>
+      <p>Ce token n'est stocké que dans ce navigateur (localStorage) et n'est envoyé qu'à
+        <code>api.github.com</code> — jamais ailleurs.</p>
+      <input id="token-input" type="password" placeholder="github_pat_…" autocomplete="off" />
+      <div class="modal-actions">
+        <button id="token-save" type="button">Enregistrer</button>
+        <button id="token-clear" type="button">Effacer</button>
+        <button id="token-cancel" type="button">Fermer</button>
+      </div>
+    </div>
+  </div>
+
+  <template id="job-card-template">
+    <article class="job-card">
+      <header>
+        <h2 class="job-title"></h2>
+        <span class="job-score"></span>
+      </header>
+      <p class="job-meta">
+        <span class="job-company"></span> · <span class="job-location"></span> ·
+        <span class="job-source"></span>
+      </p>
+      <p class="job-summary"></p>
+      <p class="job-keywords"></p>
+      <a class="job-link" target="_blank" rel="noopener">Voir l'offre →</a>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
