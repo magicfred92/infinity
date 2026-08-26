@@ -19,7 +19,10 @@
       "operations officer",
       "conference coordinator"
     ],
-    "regions": ["Genève", "Lausanne"],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
     "notes": "Site intégré par défaut."
@@ -44,7 +47,10 @@
       "operations officer",
       "conference coordinator"
     ],
-    "regions": ["Genève", "Lausanne"],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
     "notes": "Site intégré par défaut."
