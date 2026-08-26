@@ -1,0 +1,52 @@
+[
+  {
+    "id": "jobs_ch",
+    "name": "jobs.ch",
+    "enabled": true,
+    "base_url": "https://www.jobs.ch",
+    "search_path": "/fr/vacancies/",
+    "term_param": "term",
+    "location_param": null,
+    "page_param": "page",
+    "detail_link_hints": [
+      "/vacancies/detail/",
+      "/en/vacancies/detail/",
+      "/vacancy/"
+    ],
+    "search_terms": [
+      "event officer",
+      "coordinateur événementiel",
+      "operations officer",
+      "conference coordinator"
+    ],
+    "regions": ["Genève", "Lausanne"],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Site intégré par défaut."
+  },
+  {
+    "id": "jobup_ch",
+    "name": "jobup.ch",
+    "enabled": true,
+    "base_url": "https://www.jobup.ch",
+    "search_path": "/fr/emplois/",
+    "term_param": "term",
+    "location_param": null,
+    "page_param": "page",
+    "detail_link_hints": [
+      "/fr/emplois/detail/",
+      "/emplois/detail/",
+      "/job/"
+    ],
+    "search_terms": [
+      "event officer",
+      "coordinateur événementiel",
+      "operations officer",
+      "conference coordinator"
+    ],
+    "regions": ["Genève", "Lausanne"],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Site intégré par défaut."
+  }
+]
