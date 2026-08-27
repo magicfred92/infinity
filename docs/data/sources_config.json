@@ -78,7 +78,7 @@
   {
     "id": "unjobs_org",
     "name": "unjobs.org",
-    "enabled": true,
+    "enabled": false,
     "base_url": "https://unjobs.org",
     "search_path": "/search",
     "term_param": "q",
@@ -93,12 +93,12 @@
     ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
-    "notes": "Offres multilatérales/ONU dans le monde, dont beaucoup à Genève. Détail confirmé (https://unjobs.org/vacancies/{id}). Paramètre de recherche 'q' deviné — l'URL fournie (https://unjobs.org/search) ne contenait aucun paramètre réel — à valider/corriger au premier run (logs Actions)."
+    "notes": "Offres multilatérales/ONU dans le monde, dont beaucoup à Genève. Détail confirmé (https://unjobs.org/vacancies/{id}). Paramètre de recherche 'q' deviné — l'URL fournie (https://unjobs.org/search) ne contenait aucun paramètre réel — à valider/corriger au premier run (logs Actions). Désactivé après le premier run réel : robots.txt du site interdit explicitement l'exploration de /search — respecté par principe, pas de contournement."
   },
   {
     "id": "reliefweb_int",
     "name": "reliefweb.int",
-    "enabled": true,
+    "enabled": false,
     "base_url": "https://reliefweb.int",
     "search_path": "/jobs",
     "term_param": "search",
@@ -113,12 +113,12 @@
     ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
-    "notes": "Secteur humanitaire, très actif sur Genève. Détail confirmé (https://reliefweb.int/job/{id}/{slug}), paramètre de recherche 'search' confirmé par une vraie URL fournie par l'utilisateur."
+    "notes": "Secteur humanitaire, très actif sur Genève. Détail confirmé (https://reliefweb.int/job/{id}/{slug}), paramètre de recherche 'search' confirmé par une vraie URL fournie par l'utilisateur. Désactivé après le premier run réel : page chargée normalement (statut 202, pas de blocage) mais aucun lien d'offre détecté — cause non identifiée, nécessiterait le HTML brut d'une vraie page de résultats pour être calibré."
   },
   {
     "id": "impactpool_org",
     "name": "impactpool.org",
-    "enabled": true,
+    "enabled": false,
     "base_url": "https://www.impactpool.org",
     "search_path": "/search",
     "term_param": "q",
@@ -133,12 +133,12 @@
     ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
-    "notes": "Développement international / agences onusiennes. Détail confirmé (https://impactpool.org/jobs/{id}), paramètre de recherche 'q' confirmé par une vraie URL fournie par l'utilisateur."
+    "notes": "Développement international / agences onusiennes. Détail confirmé (https://impactpool.org/jobs/{id}), paramètre de recherche 'q' confirmé par une vraie URL fournie par l'utilisateur. Désactivé après le premier run réel : robots.txt du site interdit explicitement l'exploration de /search — respecté par principe, pas de contournement."
   },
   {
     "id": "cinfo_jobboard",
     "name": "jobboard.cinfo.ch (Cinfo)",
-    "enabled": true,
+    "enabled": false,
     "base_url": "https://jobboard.cinfo.ch",
     "search_path": "/candidate/search-and-filter-ads.php",
     "term_param": "search_keywords",
@@ -155,7 +155,7 @@
     ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
-    "notes": "Agence suisse dédiée à la coopération internationale — correspond exactement au profil. ATTENTION : l'état des filtres de recherche de ce site vit dans le fragment d'URL (après #), jamais envoyé au serveur — impossible à piloter par simple URL. Configuré volontairement avec une seule requête (search_terms/regions vides) plutôt que le fan-out habituel, pour ne pas gaspiller de temps d'exécution sur des requêtes qui renverront de toute façon la même liste non filtrée ; le tri se fait entièrement via le score de pertinence.",
+    "notes": "Agence suisse dédiée à la coopération internationale — correspond exactement au profil. ATTENTION : l'état des filtres de recherche de ce site vit dans le fragment d'URL (après #), jamais envoyé au serveur — impossible à piloter par simple URL. Configuré volontairement avec une seule requête (search_terms/regions vides) plutôt que le fan-out habituel, pour ne pas gaspiller de temps d'exécution sur des requêtes qui renverront de toute façon la même liste non filtrée ; le tri se fait entièrement via le score de pertinence. Désactivé après le premier run réel : robots.txt du site interdit explicitement l'exploration du chemin de recherche (en plus du souci de filtres stockés dans le fragment d'URL déjà identifié).",
     "strip_query_string": false
   },
   {
@@ -181,7 +181,7 @@
   {
     "id": "genevajobs_org",
     "name": "genevajobs.org",
-    "enabled": true,
+    "enabled": false,
     "base_url": "https://www.genevajobs.org",
     "search_path": "/PublicSearchView.aspx",
     "term_param": "keywords",
@@ -198,7 +198,7 @@
     ],
     "max_pages_per_query": 1,
     "max_jobs": 40,
-    "notes": "Portail Genève/ONG. ATTENTION : page ASP.NET (.aspx) qui fonctionne probablement par soumission de formulaire (POST) plutôt que par paramètres d'URL — les filtres GET seront vraisemblablement ignorés. Configuré volontairement avec une seule requête (search_terms/regions vides) pour éviter le gaspillage ; le tri se fait entièrement via le score de pertinence. Détail confirmé (https://genevajobs.org/jobdescription.aspx?job_id={id}).",
+    "notes": "Portail Genève/ONG. ATTENTION : page ASP.NET (.aspx) qui fonctionne probablement par soumission de formulaire (POST) plutôt que par paramètres d'URL — les filtres GET seront vraisemblablement ignorés. Configuré volontairement avec une seule requête (search_terms/regions vides) pour éviter le gaspillage ; le tri se fait entièrement via le score de pertinence. Détail confirmé (https://genevajobs.org/jobdescription.aspx?job_id={id}). Désactivé après le premier run réel : la page redirige vers une page d'erreur interne (/ErrorPages/Oops.aspx) dès qu'on y accède sans passer par le vrai flux de formulaire — confirmé incompatible avec une requête GET simple.",
     "strip_query_string": false
   }
 ]

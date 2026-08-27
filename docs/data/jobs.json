@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:11:16.260151+00:00",
+  "generated_at": "2026-08-27T11:47:19.154437+00:00",
   "profile": {
     "name": "Frédéric Crousaz",
     "headline": "Event Officer / Coordinateur d'événements & opérations",
@@ -30,29 +30,9 @@
       "ok": true,
       "count": 10
     },
-    "unjobs.org": {
-      "ok": true,
-      "count": 0
-    },
-    "reliefweb.int": {
-      "ok": true,
-      "count": 0
-    },
-    "impactpool.org": {
-      "ok": true,
-      "count": 0
-    },
-    "jobboard.cinfo.ch (Cinfo)": {
-      "ok": true,
-      "count": 0
-    },
     "careers.icrc.org (CICR)": {
       "ok": true,
       "count": 24
-    },
-    "genevajobs.org": {
-      "ok": true,
-      "count": 0
     }
   },
   "jobs": [
