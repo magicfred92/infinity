@@ -330,7 +330,13 @@ def score_job(job: Job) -> dict:
     skill_hits = _count_keyword_hits(haystack, P.SKILL_KEYWORDS)
     sector_hits = _count_keyword_hits(haystack, P.SECTOR_KEYWORDS)
 
-    region = guess_region(f"{job.location} {job.description}")
+    # The structured `location` field is authoritative when it matches
+    # anything at all — checked alone first, before falling back to
+    # scanning the full description. Scanning description text directly
+    # is what tagged a Bern-based posting as "VD" in practice: the job
+    # was in Bern, but the text also named a Lausanne branch office, and
+    # dict-iteration order happened to hit "lausanne" before "bern".
+    region = guess_region(job.location) or guess_region(f"{job.location} {job.description}")
     if region in FRENCH_SPEAKING_REGIONS:
         region_score = _REGION_MATCH_BONUS
     elif region is None:
