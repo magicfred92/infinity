@@ -213,8 +213,13 @@
     try {
       if (value) localStorage.setItem(TOKEN_KEY, value);
       else localStorage.removeItem(TOKEN_KEY);
+      // Some browsers (Safari private mode, strict privacy settings) accept
+      // localStorage writes silently but never actually persist them — a
+      // failed save would otherwise look identical to a successful one, so
+      // read back what was just written to be sure.
+      return getToken() === value;
     } catch {
-      /* private browsing / storage disabled — ignore */
+      return false;
     }
   }
 
@@ -230,23 +235,51 @@
   function wireTokenModal() {
     const modal = document.getElementById("token-modal");
     const input = document.getElementById("token-input");
+    const feedback = document.getElementById("token-feedback");
+
+    const showFeedback = (text, ok) => {
+      feedback.textContent = text;
+      feedback.hidden = false;
+      feedback.style.color = ok ? "var(--score-high)" : "var(--score-low)";
+    };
+
     document.getElementById("gh-token-edit").addEventListener("click", () => {
       input.value = getToken();
+      feedback.hidden = true;
       modal.hidden = false;
     });
     document.getElementById("token-cancel").addEventListener("click", () => {
       modal.hidden = true;
     });
     document.getElementById("token-save").addEventListener("click", () => {
-      setToken(input.value.trim());
-      modal.hidden = true;
+      const value = input.value.trim();
+      if (!value) {
+        showFeedback("Le champ est vide — colle ton token avant d'enregistrer.", false);
+        return;
+      }
+      const ok = setToken(value);
+      if (!ok) {
+        showFeedback(
+          "Échec de l'enregistrement : ce navigateur bloque le stockage local " +
+            "(mode privé ou réglages de confidentialité stricts). Essaie en navigation normale.",
+          false
+        );
+        return;
+      }
       refreshTokenStatus();
+      showFeedback("✅ Token enregistré.", true);
+      setTimeout(() => {
+        modal.hidden = true;
+      }, 800);
     });
     document.getElementById("token-clear").addEventListener("click", () => {
       setToken("");
       input.value = "";
-      modal.hidden = true;
       refreshTokenStatus();
+      showFeedback("Token effacé.", true);
+      setTimeout(() => {
+        modal.hidden = true;
+      }, 600);
     });
   }
 
