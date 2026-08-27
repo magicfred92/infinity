@@ -4,7 +4,7 @@
     "name": "jobs.ch",
     "enabled": true,
     "base_url": "https://www.jobs.ch",
-    "search_path": "/fr/vacancies/",
+    "search_path": "/en/vacancies/",
     "term_param": "term",
     "location_param": null,
     "page_param": "page",
