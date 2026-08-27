@@ -284,6 +284,16 @@ button:hover { opacity: 0.9; }
   z-index: 10;
 }
 
+/* The `hidden` attribute and `.modal { display: flex }` have equal CSS
+   specificity, and this stylesheet's rule wins over the browser's own
+   `[hidden] { display: none }` default — meaning `.hidden = true` in JS
+   had no visible effect at all: the modal covered the whole page and
+   blocked every click on it, permanently, from the moment the page
+   loaded. This higher-specificity override is the standard fix. */
+.modal[hidden] {
+  display: none;
+}
+
 .modal-content {
   background: var(--surface);
   border-radius: var(--radius);
