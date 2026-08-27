@@ -498,18 +498,55 @@
   // Boot
   // ---------------------------------------------------------------------
 
-  async function init() {
-    wireFilterControls();
-    wireTokenModal();
-    wireAddSourceForm();
-    wireTriggerScrape();
-    wireSourcesToggle();
-    refreshTokenStatus();
-
-    await loadJobs();
-    await loadSourcesConfigMirror();
-    applyFilters();
+  function showFatalError(context, err) {
+    console.error(context, err);
+    const banner = document.getElementById("status-banner");
+    if (banner) {
+      banner.textContent =
+        `Erreur JavaScript (${context}) : ${err && err.message ? err.message : err}. ` +
+        "Recharge la page (Ctrl/Cmd+Shift+R) ; si ça persiste, ouvre la console (F12) et " +
+        "transmets le message d'erreur.";
+      banner.hidden = false;
+      banner.dataset.kind = "error";
+    }
   }
+
+  // A crash in any single wiring/init step used to fail completely
+  // silently — the button just wouldn't do anything, with no way to
+  // tell a JS error from a caching issue from the button genuinely not
+  // being wired. Every step is now isolated and surfaces failures on
+  // the page itself instead of only in the console.
+  function safeInit(name, fn) {
+    try {
+      fn();
+    } catch (err) {
+      showFatalError(name, err);
+    }
+  }
+
+  async function init() {
+    safeInit("wireFilterControls", wireFilterControls);
+    safeInit("wireTokenModal", wireTokenModal);
+    safeInit("wireAddSourceForm", wireAddSourceForm);
+    safeInit("wireTriggerScrape", wireTriggerScrape);
+    safeInit("wireSourcesToggle", wireSourcesToggle);
+    safeInit("refreshTokenStatus", refreshTokenStatus);
+
+    try {
+      await loadJobs();
+      await loadSourcesConfigMirror();
+      applyFilters();
+    } catch (err) {
+      showFatalError("loadJobs/applyFilters", err);
+    }
+  }
+
+  window.addEventListener("error", (event) => {
+    showFatalError("uncaught error", event.error || { message: event.message });
+  });
+  window.addEventListener("unhandledrejection", (event) => {
+    showFatalError("unhandled promise rejection", event.reason || {});
+  });
 
   document.addEventListener("DOMContentLoaded", init);
 })();
