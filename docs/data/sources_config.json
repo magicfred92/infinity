@@ -74,5 +74,131 @@
     "max_pages_per_query": 1,
     "max_jobs": 40,
     "notes": "Portail du Centre d'Accueil - Genève Internationale (organisations internationales/ONG à Genève) — cible directement le profil. Détail confirmé (https://jobs.cagi.ch/job/{slug}/, plugin WP Job Manager), mais les paramètres de recherche (search_keywords/search_location) sont devinés sur la convention par défaut du plugin, pas vérifiés en direct — à valider au premier run réel (voir logs Actions : status/final_url/title/bot_check si 0 résultat)."
+  },
+  {
+    "id": "unjobs_org",
+    "name": "unjobs.org",
+    "enabled": true,
+    "base_url": "https://unjobs.org",
+    "search_path": "/search",
+    "term_param": "q",
+    "location_param": null,
+    "page_param": null,
+    "detail_link_hints": [
+      "/vacancies/"
+    ],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Offres multilatérales/ONU dans le monde, dont beaucoup à Genève. Détail confirmé (https://unjobs.org/vacancies/{id}). Paramètre de recherche 'q' deviné — l'URL fournie (https://unjobs.org/search) ne contenait aucun paramètre réel — à valider/corriger au premier run (logs Actions)."
+  },
+  {
+    "id": "reliefweb_int",
+    "name": "reliefweb.int",
+    "enabled": true,
+    "base_url": "https://reliefweb.int",
+    "search_path": "/jobs",
+    "term_param": "search",
+    "location_param": null,
+    "page_param": "page",
+    "detail_link_hints": [
+      "/job/"
+    ],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Secteur humanitaire, très actif sur Genève. Détail confirmé (https://reliefweb.int/job/{id}/{slug}), paramètre de recherche 'search' confirmé par une vraie URL fournie par l'utilisateur."
+  },
+  {
+    "id": "impactpool_org",
+    "name": "impactpool.org",
+    "enabled": true,
+    "base_url": "https://www.impactpool.org",
+    "search_path": "/search",
+    "term_param": "q",
+    "location_param": null,
+    "page_param": null,
+    "detail_link_hints": [
+      "/jobs/"
+    ],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Développement international / agences onusiennes. Détail confirmé (https://impactpool.org/jobs/{id}), paramètre de recherche 'q' confirmé par une vraie URL fournie par l'utilisateur."
+  },
+  {
+    "id": "cinfo_jobboard",
+    "name": "jobboard.cinfo.ch (Cinfo)",
+    "enabled": true,
+    "base_url": "https://jobboard.cinfo.ch",
+    "search_path": "/candidate/search-and-filter-ads.php",
+    "term_param": "search_keywords",
+    "location_param": null,
+    "page_param": null,
+    "detail_link_hints": [
+      "/job/view-job.php"
+    ],
+    "search_terms": [
+      ""
+    ],
+    "regions": [
+      ""
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Agence suisse dédiée à la coopération internationale — correspond exactement au profil. ATTENTION : l'état des filtres de recherche de ce site vit dans le fragment d'URL (après #), jamais envoyé au serveur — impossible à piloter par simple URL. Configuré volontairement avec une seule requête (search_terms/regions vides) plutôt que le fan-out habituel, pour ne pas gaspiller de temps d'exécution sur des requêtes qui renverront de toute façon la même liste non filtrée ; le tri se fait entièrement via le score de pertinence.",
+    "strip_query_string": false
+  },
+  {
+    "id": "careers_icrc_org",
+    "name": "careers.icrc.org (CICR)",
+    "enabled": true,
+    "base_url": "https://careers.icrc.org",
+    "search_path": "/search/",
+    "term_param": "q",
+    "location_param": null,
+    "page_param": null,
+    "detail_link_hints": [
+      "/job/"
+    ],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "CICR à Genève — très pertinent (ancien employeur du profil), mais probable système de recrutement d'entreprise (type SAP SuccessFactars Recruiting Marketing) — comportement de filtrage réel non vérifié. Nom du paramètre 'q' confirmé par une vraie URL fournie par l'utilisateur ; à valider au premier run (logs Actions : status/final_url/title/bot_check si 0 résultat ou contenu suspect)."
+  },
+  {
+    "id": "genevajobs_org",
+    "name": "genevajobs.org",
+    "enabled": true,
+    "base_url": "https://www.genevajobs.org",
+    "search_path": "/PublicSearchView.aspx",
+    "term_param": "keywords",
+    "location_param": null,
+    "page_param": null,
+    "detail_link_hints": [
+      "/jobdescription.aspx"
+    ],
+    "search_terms": [
+      ""
+    ],
+    "regions": [
+      ""
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Portail Genève/ONG. ATTENTION : page ASP.NET (.aspx) qui fonctionne probablement par soumission de formulaire (POST) plutôt que par paramètres d'URL — les filtres GET seront vraisemblablement ignorés. Configuré volontairement avec une seule requête (search_terms/regions vides) pour éviter le gaspillage ; le tri se fait entièrement via le score de pertinence. Détail confirmé (https://genevajobs.org/jobdescription.aspx?job_id={id}).",
+    "strip_query_string": false
   }
 ]
