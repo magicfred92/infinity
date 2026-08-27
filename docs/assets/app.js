@@ -106,7 +106,11 @@
       if (region) {
         if (region === "__unknown" ? job.region : job.region !== region) return false;
       }
-      if (sources.size && !sources.has(job.source)) return false;
+      // An empty set genuinely means "show nothing" (the "Aucun" button) —
+      // it's always populated with every known source by the time any
+      // job could be filtered, so there's no "not yet initialised" case
+      // to special-case here.
+      if (!sources.has(job.source)) return false;
       if (search) {
         const haystack = `${job.title} ${job.company} ${job.summary} ${(job.matched_keywords || []).join(" ")}`.toLowerCase();
         if (!haystack.includes(search.toLowerCase())) return false;
@@ -162,7 +166,7 @@
       const label = document.createElement("label");
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
-      checkbox.checked = true;
+      checkbox.checked = state.filters.sources.has(source);
       checkbox.value = source;
       checkbox.addEventListener("change", () => {
         if (checkbox.checked) state.filters.sources.add(source);
@@ -175,7 +179,24 @@
     }
   }
 
+  function setAllSourceCheckboxes(checked) {
+    const container = document.getElementById("source-filter");
+    const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+    state.filters.sources.clear();
+    for (const checkbox of checkboxes) {
+      checkbox.checked = checked;
+      if (checked) state.filters.sources.add(checkbox.value);
+    }
+    applyFilters();
+  }
+
   function wireFilterControls() {
+    document.getElementById("source-select-all").addEventListener("click", () => {
+      setAllSourceCheckboxes(true);
+    });
+    document.getElementById("source-select-none").addEventListener("click", () => {
+      setAllSourceCheckboxes(false);
+    });
     document.getElementById("search-input").addEventListener("input", (e) => {
       state.filters.search = e.target.value;
       applyFilters();

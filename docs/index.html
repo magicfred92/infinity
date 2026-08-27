@@ -35,7 +35,13 @@
         <option value="__unknown">Localisation inconnue</option>
       </select>
 
-      <div id="source-filter" class="source-filter" aria-label="Sources"></div>
+      <div class="source-filter-group">
+        <div class="source-filter-actions">
+          <button type="button" id="source-select-all">Tout</button>
+          <button type="button" id="source-select-none">Aucun</button>
+        </div>
+        <div id="source-filter" class="source-filter" aria-label="Sources"></div>
+      </div>
 
       <label class="score-filter">
         Pertinence min. <output id="min-score-output">0</output>%
