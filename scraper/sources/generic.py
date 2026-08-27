@@ -62,6 +62,15 @@ def _extract_detail_links(config: dict, html: str) -> list[str]:
 
     base_url = config["base_url"].rstrip("/")
     hints = config.get("detail_link_hints") or []
+    # Stripping the query string is the right default — it normalises
+    # away tracking params (?utm_source=...) that would otherwise make
+    # the same job look like several different ones. But some sites
+    # (e.g. PHP/ASP.NET job boards using ?id=... or ?job_id=... as the
+    # actual identifier) put the job's identity IN the query string, so
+    # stripping it there would turn every link into the same useless
+    # query-less URL. Set strip_query_string: false in that source's
+    # config to keep it.
+    strip_query = config.get("strip_query_string", True)
     soup = BeautifulSoup(html, "lxml")
     links: set[str] = set()
     for a in soup.select("a[href]"):
@@ -69,7 +78,9 @@ def _extract_detail_links(config: dict, html: str) -> list[str]:
         if any(hint in href for hint in hints):
             if href.startswith("/"):
                 href = base_url + href
-            links.add(href.split("?")[0])
+            if strip_query:
+                href = href.split("?")[0]
+            links.add(href)
     return sorted(links)
 
 
