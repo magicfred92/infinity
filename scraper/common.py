@@ -29,7 +29,7 @@ BROWSER_UA = (
 DEBUG_DIR = Path(__file__).resolve().parent.parent / "debug"
 
 
-def polite_delay(lo: float = 1.5, hi: float = 3.5) -> None:
+def polite_delay(lo: float = 2.5, hi: float = 5.0) -> None:
     """Small randomised pause between requests to the same site."""
     time.sleep(random.uniform(lo, hi))
 
@@ -80,8 +80,14 @@ _playwright_ctx = None
 _browser = None
 
 
-def fetch_html_via_browser(url: str, wait_ms: int = 2500) -> str:
-    """Loads `url` in headless Chromium and returns the rendered HTML.
+def fetch_html_via_browser(url: str, wait_ms: int = 3500) -> tuple[str, dict]:
+    """Loads `url` in headless Chromium and returns (html, meta).
+
+    `meta` carries `status` (HTTP status of the initial navigation),
+    `final_url` (after any redirect), and `title` — logged whenever a
+    search page yields no links, so a future run's plain Actions log is
+    enough to tell "wrong URL/redirected" from "bot-check page" from
+    "markup changed" without needing to download the debug artifact.
 
     Uses a single lazily-started browser instance for the process
     lifetime so a scraping run doesn't pay Chromium startup cost per
@@ -96,11 +102,38 @@ def fetch_html_via_browser(url: str, wait_ms: int = 2500) -> str:
 
     page = _browser.new_page(user_agent=BROWSER_UA)
     try:
-        page.goto(url, timeout=30000, wait_until="domcontentloaded")
+        response = page.goto(url, timeout=30000, wait_until="domcontentloaded")
         page.wait_for_timeout(wait_ms)
-        return page.content()
+        html = page.content()
+        meta = {
+            "status": response.status if response else None,
+            "final_url": page.url,
+            "title": page.title(),
+        }
+        return html, meta
     finally:
         page.close()
+
+
+_BOT_CHECK_MARKERS = (
+    "captcha",
+    "just a moment",
+    "attention required",
+    "access denied",
+    "unusual traffic",
+    "are you a human",
+    "verify you are human",
+    "cloudfront",
+    "request blocked",
+)
+
+
+def looks_like_bot_check(html: str) -> bool:
+    """Cheap heuristic to flag a page as an anti-bot interstitial or error
+    page rather than real content — used for diagnostics on empty search
+    results, and to avoid fabricating a "job" out of an error page."""
+    low = html.lower()
+    return any(marker in low for marker in _BOT_CHECK_MARKERS)
 
 
 def shutdown_browser() -> None:
@@ -192,13 +225,21 @@ class Job:
         # Fallback: no structured data found on the page. Grab whatever
         # visible text is available so the job still surfaces (with a
         # lower score, since location/date can't be reliably extracted
-        # this way) rather than silently dropping it.
+        # this way) rather than silently dropping it — unless the page is
+        # actually an anti-bot interstitial or error page (e.g. a
+        # CloudFront/Akamai block), in which case there's no job to show
+        # and fabricating one from the error text would be worse than
+        # dropping it.
         from bs4 import BeautifulSoup
+
+        if looks_like_bot_check(fallback_html):
+            logger.warning("%s: %s looks like a bot-check/error page, skipping", source, url)
+            return None
 
         soup = BeautifulSoup(fallback_html, "lxml")
         title_tag = soup.find("h1")
         title = title_tag.get_text(strip=True) if title_tag else None
-        if not title:
+        if not title or re.search(r"\berror\b|\bforbidden\b", title.lower()):
             return None
         body_text = soup.get_text(" ", strip=True)
         return cls(
@@ -219,15 +260,32 @@ class Job:
 FRENCH_SPEAKING_REGIONS = {"GE", "VD", "FR", "VS", "NE", "JU", "ROMANDIE"}
 
 
+_KEYWORD_PATTERN_CACHE: dict[str, re.Pattern] = {}
+
+
+def _word_boundary_pattern(phrase: str) -> re.Pattern:
+    """Compiles (and caches) a case-insensitive, word-boundary-anchored
+    pattern for `phrase`. Plain substring matching would let a short
+    keyword like "ong" (NGO) match inside "au l-ong- de", or "sion"
+    (Valais) match inside "déci-sion-"/"mis-sion-" — both observed in
+    practice on the first real scrape, hence the word boundaries rather
+    than a simpler `needle in haystack` check."""
+    pattern = _KEYWORD_PATTERN_CACHE.get(phrase)
+    if pattern is None:
+        pattern = re.compile(r"\b" + re.escape(phrase.lower()) + r"\b", re.UNICODE)
+        _KEYWORD_PATTERN_CACHE[phrase] = pattern
+    return pattern
+
+
 def _count_keyword_hits(text: str, keywords: list[str]) -> list[str]:
-    text_low = text.lower()
-    return [kw for kw in keywords if kw.lower() in text_low]
+    text_low = re.sub(r"\s+", " ", text.lower())
+    return [kw for kw in keywords if _word_boundary_pattern(kw).search(text_low)]
 
 
 def guess_region(text: str) -> Optional[str]:
-    text_low = text.lower()
+    text_low = re.sub(r"\s+", " ", text.lower())
     for needle, region in P.LOCATION_KEYWORDS.items():
-        if needle in text_low:
+        if _word_boundary_pattern(needle).search(text_low):
             return region
     return None
 

@@ -31,6 +31,7 @@ from ..common import (
     dump_debug_html,
     extract_jobposting_jsonld,
     fetch_html_via_browser,
+    looks_like_bot_check,
     polite_delay,
 )
 
@@ -103,17 +104,23 @@ def scrape(config: dict, robots: RobotsCache) -> list[Job]:
                     break
                 url = _search_url(config, term, region, page)
                 try:
-                    html = fetch_html_via_browser(url)
+                    html, meta = fetch_html_via_browser(url)
                 except Exception:
                     logger.exception("%s: failed to load search page %s", name, url)
                     continue
 
                 links = _extract_detail_links(config, html)
                 if not links:
+                    # Log enough to diagnose from the plain Actions log —
+                    # wrong URL/redirect, a bot-check page, or markup that
+                    # changed — without needing the debug artifact.
                     logger.warning(
-                        "%s: no job links found for term=%r region=%r page=%s — "
+                        "%s: no job links found for term=%r region=%r page=%s "
+                        "(status=%s final_url=%s title=%r bot_check=%s) — "
                         "check detail_link_hints, see debug dump",
                         name, term, region, page,
+                        meta.get("status"), meta.get("final_url"), meta.get("title"),
+                        looks_like_bot_check(html),
                     )
                     dump_debug_html(f"{config.get('id', name)}_{term}_{region}_p{page}", html)
                     continue
@@ -125,7 +132,7 @@ def scrape(config: dict, robots: RobotsCache) -> list[Job]:
                         continue
                     polite_delay()
                     try:
-                        detail_html = fetch_html_via_browser(link)
+                        detail_html, _detail_meta = fetch_html_via_browser(link)
                     except Exception:
                         logger.exception("%s: failed to load detail page %s", name, link)
                         continue
