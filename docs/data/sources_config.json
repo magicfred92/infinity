@@ -54,5 +54,25 @@
     "max_pages_per_query": 1,
     "max_jobs": 40,
     "notes": "Site intégré par défaut."
+  },
+  {
+    "id": "cagi",
+    "name": "jobs.cagi.ch (CAGI)",
+    "enabled": true,
+    "base_url": "https://jobs.cagi.ch",
+    "search_path": "/jobs/",
+    "term_param": "search_keywords",
+    "location_param": "search_location",
+    "page_param": null,
+    "detail_link_hints": [
+      "/job/"
+    ],
+    "regions": [
+      "Genève",
+      "Lausanne"
+    ],
+    "max_pages_per_query": 1,
+    "max_jobs": 40,
+    "notes": "Portail du Centre d'Accueil - Genève Internationale (organisations internationales/ONG à Genève) — cible directement le profil. Détail confirmé (https://jobs.cagi.ch/job/{slug}/, plugin WP Job Manager), mais les paramètres de recherche (search_keywords/search_location) sont devinés sur la convention par défaut du plugin, pas vérifiés en direct — à valider au premier run réel (voir logs Actions : status/final_url/title/bot_check si 0 résultat)."
   }
 ]
