@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:25:21.854610+00:00",
+  "generated_at": "2026-09-07T10:14:01.651569+00:00",
   "profile": {
     "name": "Frédéric Crousaz",
     "headline": "Event Officer / Coordinateur d'événements & opérations",
@@ -20,7 +20,7 @@
   "source_status": {
     "jobs.ch": {
       "ok": true,
-      "count": 9
+      "count": 10
     },
     "jobup.ch": {
       "ok": true,
@@ -32,26 +32,10 @@
     },
     "careers.icrc.org (CICR)": {
       "ok": true,
-      "count": 22
+      "count": 23
     }
   },
   "jobs": [
-    {
-      "source": "jobs.ch",
-      "url": "https://www.jobs.ch/en/vacancies/detail/7e913c5f-a923-459a-a55c-fea90bd64b1a/",
-      "title": "Client Advisor Horlogerie Monomarque 100% (m/f/d) - Genève",
-      "company": "Bucherer AG",
-      "location": "Genève",
-      "date_posted": "2026-09-02T13:34:40+02:00",
-      "description": "Découvrez Bucherer Dans le monde entier, Bucherer incarne l’excellence dans l’univers des montres d’exception et de la joaillerie raffinée. Grâce à une alliance unique entre tradition, innovation et savoir-faire artisanal, la Maison s’est imposée comme une référence incontournable sur le marché. Présents dans plus de 100 boutiques à travers le monde, nous accueillons chaque jour une clientèle exigeante. Avec passion et un sens de l’accueil irréprochable, nous offrons bien plus que des produits: une véritable expérience. Plus de 2 000 collaborateurs engagés partagent une même ambition: transmettre leur fascination pour des pièces d’exception et faire de chaque rencontre avec nos clients un moment privilégié. Votre rôle au sein de notre maison: Vous accueillez et conseillez notre clientèle suisse et internationale exigeante lors de l'achat de montres de marque, ainsi que de bijoux et pierres précieuses, vous offrez un service premium. Vous construisez, développez et fidélisez notre clientèle. Vous êtes ambassadeur/-rice d'une marque, vous analysez et gérez les quantités et assurez une présentation valorisant le produit. Vous gérez les données au moyen du système de gestion Salesforce, vous assurez leur qualité. Vous prenez en charge des tâches administratives inhérentes à la vente, tels que les emails, la gestion du service après-vente, l’inventaire, le transfert et la réception de marchandises. Vous assurez un flux d'information impeccable entre collègues et les soutenez activement. Vous vous tenez au courant des tendances et vous suivez des formations pour rester à la pointe des disciplines clés de votre métier. Votre profil: Vous êtes un/-e passionné/-e de l'horlogerie et vous avez une affinité pour la joaillerie. Vous avez plusieurs années d'expérience dans la vente de produits horlogers, dans des services haut de gamme ou dans l'hôtellerie de luxe. Vous possédez un sens aigu du service et une orientation clients exemplaires. Vous avez idéalement accompli une formation en tant que Gestionnaire du commerce de détail (CFC) dans le domaine du conseil de vente en joaillerie/bijouterie et en horlogerie. Votre langue maternelle est le français, vous avez une excellente maîtrise de l'anglais, toute langue additionnelle serait un atout. Vous avez de la facilité avec la gestion des systèmes informatiques. Vous vous démarquez par votre rigueur professionnelle et le sens du détail qui fait la différence pour notre clientèle. Vous possédez un sens des responsabilités prononcé, un excellent esprit d'équipe et êtes flexible. Votre apparence est soignée et professionnelle. Pourquoi rejoindre Bucherer? Parce que chez nous, il s’agit de bien plus qu’un emploi: c’est la passion qui fait la différence. Nos collaborateurs partagent un même engagement pour l’excellence artisanale, un service irréprochable et un véritable esprit d’équipe. Nous associons l’héritage de la tradition suisse à une ouverture internationale, dans un environnement de travail où qualité, collaboration et exigence sont au cœur de tout ce que nous faisons. Chez Bucherer, nous encourageons le développement individuel, cultivons l’innovation et offrons à chacun l’opportunité de révéler son potentiel, ensemble, au sein d’une équipe qui inspire et rassemble. Chez Bucherer, vous bénéficiez notamment des avantages suivants: Semaine de 40 heures Au minimum 27 jours de congés par an Des modèles de travail flexibles, avec possibilité de télétravail lorsque la fonction le permet Des conditions d’achat privilégiées sur les montres et les bijoux Des prestations particulièrement avantageuses à l’occasion de la naissance d’un enfant Une couverture attractive en matière de caisse de pension et d’assurances sociales Nous nous réjouissons de recevoir votre candidature. Votre équipe des Ressources Humaines Bucherer AG",
-      "id": "38370fb202cf",
-      "score": 37,
-      "matched_keywords": [
-        "salesforce"
-      ],
-      "region": "GE",
-      "summary": "Découvrez Bucherer Dans le monde entier, Bucherer incarne l’excellence dans l’univers des montres d’exception et de la joaillerie raffinée. Grâce à une alliance unique entre tradition, innovation et savoir-faire artisanal, la Maison s’est imposée comme une référence…"
-    },
     {
       "source": "jobup.ch",
       "url": "https://www.jobup.ch/fr/emplois/detail/36dbe124-6970-4a20-b250-43b027288839/",
@@ -102,11 +86,25 @@
     },
     {
       "source": "jobs.ch",
+      "url": "https://www.jobs.ch/en/vacancies/detail/0c9416a6-ad52-4f4d-a97a-c6a1a3473d6d/",
+      "title": "Apprenti(e) Gestionnaire commerce de détail à Genève, dès août 2027",
+      "company": "Salt Mobile SA",
+      "location": "Stadt Genf",
+      "date_posted": "2026-09-03T08:32:39+02:00",
+      "description": "Tu vas bientôt terminer ta scolarité obligatoire et tu brûles d'envie de débuter un apprentissage en commerce de détail ? Tu souhaites relever chaque jour de nouveaux défis variés au contact des clients et partager ta passion pour les Télécommunications ? Ça tombe bien! Nous sommes à la recherche de nouveaux talents qui partagent nos intérêts et nos valeurs. Tu cherches à rendre les choses faciles et tu te distingues par tout ce que tu dis et fais ? Si tu te reconnais bien là, alors nous serions heureux de t'accueillir pendant tes trois années d'apprentissage au poste de Gestionnaire de commerce de détail au sein de notre Salt Store de Genève Charmilles. Nous te promettons de passer à nos côtés trois années enrichissantes et remplies de moments que tu ne seras pas prêt(e) d'oublier. Apprenti(e) Gestionnaire commerce de détail à Genève, dès août 2027 Tes responsabilités Durant ton apprentissage au poste de vendeur, ta mission consistera principalement à accueillir, conseillez notre clientèle, et à vendre de nouveaux produits et services afin de garantir un service d’exception. Tu veux en savoir plus sur ce poste? Nous te proposons de visionner cette video Tes contributions Ton intérêt pour le commerce et les nouvelles technologies Ta bonne humeur, ton dynamisme et ta flexibilité Tu as le contact facile et parles une autre langue étrangère Tes résultats scolaires sont bons, avec une moyenne générale de 4.5 Tu as réussi le Multicheck de gestionnaire du commerce de détail avec la mention générale «suffisant» (tu ne peux postuler que si tu as le Multicheck). Tu as toujours rêvé de travailler dans un environnement favorisant l’originalité et la diversité ? Si c'est le cas, nous aimerions faire ta connaissance. Pose ta candidature en ligne dès aujourd'hui (seules les demandes posées en ligne accompagnées de lettre de motivation, CV et photo seront prises en considération). Rue de Caudray 4 1020 Renens",
+      "id": "76e0d028ee8f",
+      "score": 31,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Tu vas bientôt terminer ta scolarité obligatoire et tu brûles d'envie de débuter un apprentissage en commerce de détail ? Tu souhaites relever chaque jour de nouveaux défis variés au contact des clients et partager ta passion pour les Télécommunications ? Ça tombe bien! Nous…"
+    },
+    {
+      "source": "jobs.ch",
       "url": "https://www.jobs.ch/en/vacancies/detail/564169f1-2c2f-4edb-b28f-2ec9a9dc0293/",
       "title": "Réceptionniste auxiliaire itinérant(e) sur appel - Région Genève",
       "company": "Equans Switzerland AG",
       "location": "1227 Carouge",
-      "date_posted": "2026-09-02T17:33:18+02:00",
+      "date_posted": "2026-09-07T01:58:47+02:00",
       "description": "Dans le cadre de mandats pour plusieurs de nos clients, nous recherchons des réceptionnistes auxiliaires itinérant(e)s avec un taux d'activité variable pour assurer des remplacements ponctuels et renforcer les équipes d'accueil de différents sites situés dans la région de Genève. Il s'agit d'un contrat sur appel, nécessitant une grande flexibilité et une disponibilité régulière, notamment pour intervenir parfois dans des délais courts selon les besoins de nos clients. Réceptionniste auxiliaire itinérant(e) sur appel - Région Genève Chez nous, tu peux faire bouger les choses. Vos missions Assurer l'accueil physique et téléphonique des visiteurs, clients et collaborateurs Orienter et renseigner les visiteurs avec professionnalisme Gérer les entrées et sorties (badges, registres, annonces de visiteurs) Réceptionner et distribuer le courrier ainsi que les colis Traiter les appels, emails et demandes diverses Veiller à la tenue irréprochable de l'espace d'accueil Collaborer avec les différents interlocuteurs présents sur site S'adapter rapidement à des environnements de travail variés et à différents sites clients Ce qui te caractérise. Votre profil Expérience préalable dans une fonction similaire (réception, accueil, hôtellerie ou service clientèle), un atout Français courant à l'oral et à l'écrit Très bon niveau d'anglais requis Toute autre langue constitue un avantage Excellente présentation et sens aigu du service Très bonnes compétences relationnelles, discrétion et courtoisie Organisation, autonomie et fiabilité Maîtrise des outils informatiques usuels Grande flexibilité et disponibilité pour travailler sur appel Mobilité indispensable sur l'ensemble de la région genevoise Capacité à s'intégrer rapidement dans de nouveaux environnements de travail Voici ce que nous t'offrons. Nous offrons Une activité variée au sein de différents environnements professionnels Des missions ponctuelles auprès d'entreprises reconnues de la région genevoise Un cadre de travail dynamique et enrichissant Une expérience idéale pour les personnes recherchant une activité flexible et diversifiée Equans Switzerland Facility Management AG En tant que premier prestataire de solutions globales pour le bâtiment et l'énergie en Suisse, nous soutenons la transformation et la numérisation de nos clients et travaillons ensemble à la transition énergétique. Nos prestations couvrent l'ensemble du cycle de vie des bâtiments, sites, infrastructures et quartiers. En tant que leader du marché, nos clients bénéficient d'une gamme complète de services auprès d'un seul interlocuteur ainsi que de solutions à leurs projets élaborées de façon intégrée et en équipe. Nous disposons d'une présence dans toute la Suisse et employons 6500 personnes réparties sur 140 sites. Cela nous permet de mettre en œuvre efficacement des projets aussi bien régionaux que couvrant tout le pays. Outre la technique et l'automation des bâtiments ainsi que le Facility Management, notre offre comprend également des spécialisations telles que l'approvisionnement en énergie, les transports, les télécommunications, la numérisation et l'optimisation énergétique. Nous concevons, construisons et réalisons ainsi des projets qui s'étendent de bâtiments intelligents à des centrales électriques d'avenir en passant par des tunnels. Lieu de travail Equans Switzerland Facility Management AG Rue Blavignac 10 1227 Carouge Ta personne de contact Jessica ROULIN 076 372 54 80 route des Flumeaux 45 1008 Prilly",
       "id": "a86a77703911",
       "score": 31,
@@ -127,6 +125,20 @@
       "matched_keywords": [],
       "region": "GE",
       "summary": "Tu cherches une entreprise prête à parier sur ton potentiel brut ? Tu as un tempérament de compétiteur et tu vois le développement B2B comme un véritable jeu de stratégie ? Chez Academic Work, ton CV importe peu, c'est ta force de conviction et ton ambition qui comptent. Viens…"
+    },
+    {
+      "source": "jobs.ch",
+      "url": "https://www.jobs.ch/en/vacancies/detail/6ea1bc4d-5615-4267-9430-2d18b185cb15/",
+      "title": "Apprenti(e) Gestionnaire commerce de détail à Genève, dès août 2027",
+      "company": "Salt Mobile SA",
+      "location": "Stadt Genf",
+      "date_posted": "2026-09-03T08:32:39+02:00",
+      "description": "Tu vas bientôt terminer ta scolarité obligatoire et tu brûles d'envie de débuter un apprentissage en commerce de détail ? Tu souhaites relever chaque jour de nouveaux défis variés au contact des clients et partager ta passion pour les Télécommunications ? Ça tombe bien! Nous sommes à la recherche de nouveaux talents qui partagent nos intérêts et nos valeurs. Tu cherches à rendre les choses faciles et tu te distingues par tout ce que tu dis et fais ? Si tu te reconnais bien là, alors nous serions heureux de t'accueillir pendant tes trois années d'apprentissage au poste de Gestionnaire de commerce de détail au sein de notre Salt Store de Genève Marché. Nous te promettons de passer à nos côtés trois années enrichissantes et remplies de moments que tu ne seras pas prêt(e) d'oublier. Apprenti(e) Gestionnaire commerce de détail à Genève, dès août 2027 Tes responsabilités Durant ton apprentissage au poste de vendeur, ta mission consistera principalement à accueillir, conseillez notre clientèle, et à vendre de nouveaux produits et services afin de garantir un service d’exception. Tu veux en savoir plus sur ce poste? Nous te proposons de visionner cette video Tes contributions Ton intérêt pour le commerce et les nouvelles technologies Ta bonne humeur, ton dynamisme et ta flexibilité Tu as le contact facile et parles une autre langue étrangère Tes résultats scolaires sont bons, avec une moyenne générale de 4.5 Tu as réussi le Multicheck de gestionnaire du commerce de détail avec la mention générale «suffisant» (tu ne peux postuler que si tu as le Multicheck). Tu as toujours rêvé de travailler dans un environnement favorisant l’originalité et la diversité ? Si c'est le cas, nous aimerions faire ta connaissance. Pose ta candidature en ligne dès aujourd'hui (seules les demandes posées en ligne accompagnées de lettre de motivation, CV et photo seront prises en considération). Rue de Caudray 4 1020 Renens",
+      "id": "1ba8bf1db170",
+      "score": 31,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Tu vas bientôt terminer ta scolarité obligatoire et tu brûles d'envie de débuter un apprentissage en commerce de détail ? Tu souhaites relever chaque jour de nouveaux défis variés au contact des clients et partager ta passion pour les Télécommunications ? Ça tombe bien! Nous…"
     },
     {
       "source": "jobup.ch",
@@ -199,22 +211,6 @@
       "summary": "Accès personnel recrute et reconnaît tous les talents ! Pour nos clients basés sur Genève La Côte vaudoise, nous recherchons un Aide-soignant à domicile (H/F) A es plus brefs délais. À très vite ! Aide-soignant(e) H/F – Soins à domicile | Missions régulières, intérimaires et au…"
     },
     {
-      "source": "jobup.ch",
-      "url": "https://www.jobup.ch/fr/emplois/detail/7a8819cd-1084-4845-9f7b-7c716ff38807/",
-      "title": "Agent Commercial Freelance(H/F) / Mandataire Indépendant pour les cantons de Berne Genève Neuchâtel ainsi que Vaud et Valais",
-      "company": "PUBSWISS Charles Aeschlimann",
-      "location": "Vaud",
-      "date_posted": "2026-08-20T13:17:31+02:00",
-      "description": "Chez Pubswiss, nous recherchons des Mandataires Commerciaux (Freelance) passionnés par le contact B2B et l'autonomie. Si vous êtes motivé, indépendant et que vous réussissez à gérer votre activité comme un véritable entrepreneur, rejoignez notre réseau de partenaires en Suisse romande. Devenez Partenaire de Pubswiss : Rémunération 100% à la commission, autonomie totale. Votre mission (en toute indépendance) : Prospecter et acquérir de nouveaux clients B2B ou B2C dans votre région. Commercialiser nos solutions innovantes de marketing digital et nos articles publicitaires (publicité sur réseau d'écrans, écrans dynamiques publicitaires, CRM, solutions web et réseaux, imprimés publicitaires tous support, du papier à la bâche imprimée en passant par l'oriflamme. Gérer votre portefeuille client de manière autonome. Promouvoir les services publicitaires d'Agence Pubswiss, d'établir de solides relations avec les clients et de développer de nouvelles opportunités commerciales. Vous identifierez les besoins des clients, développerez des stratégies de vente personnalisées et assurerez un suivi régulier pour garantir la satisfaction des clients. Ce que nous vous offrons : Statut : Contrat de Mandat (activité en tant qu'indépendant/Freelance). Rémunération : 100% à la commission, parmi les plus motivantes du secteur, sans plafond. Vos résultats font votre revenu. Flexibilité : organisationnelle complète Taux d'activité minimum 50% à 100% Un accompagnement commercial de qualité sur nos produits. Indispensable maîtrise de la langue français parler et écrit Rémunération : CHF2 485,79 à CHF10 737,24 par mois Avantages : Programmes de formation continue Formation: Degré secondaire II (Requis) Expérience: Vente: 1 an (Requis) Lieux du poste : Travail hybride cantons de Bâle, Berne, Genève, Jura, Neuchâtel, et Valais ainsi que Vaud Dès réception de votre dossier nous vous contacterons par téléphone PS: Tous les CV qui n'ont pas de photo récente ne seront tout simplement pas pris en considération",
-      "id": "6c576f8ab9cd",
-      "score": 31,
-      "matched_keywords": [
-        "crm"
-      ],
-      "region": "VD",
-      "summary": "Chez Pubswiss, nous recherchons des Mandataires Commerciaux (Freelance) passionnés par le contact B2B et l'autonomie. Si vous êtes motivé, indépendant et que vous réussissez à gérer votre activité comme un véritable entrepreneur, rejoignez notre réseau de partenaires en Suisse…"
-    },
-    {
       "source": "jobs.cagi.ch (CAGI)",
       "url": "https://jobs.cagi.ch/job/international-social-service-general-secretariat-geneva-permanent-contract-membership-development-engagement-officer/",
       "title": "Membership Development &amp;amp; Engagement Officer",
@@ -259,18 +255,18 @@
       "summary": "Organisation Internationale pour les Pays les Moins Avancés (OIPMA) International Organisation for the Least Developed Countries (IOLDCs)"
     },
     {
-      "source": "jobs.ch",
-      "url": "https://www.jobs.ch/en/vacancies/detail/33ca8a80-a066-4bae-bd78-22569e6d0d87/",
-      "title": "Animateur·rice en milieu scolaire (canton de Genève) à 40 %",
-      "company": "COSEDEC",
+      "source": "jobup.ch",
+      "url": "https://www.jobup.ch/fr/emplois/detail/03b257fb-0e8d-4250-9611-e656f55bbaf8/",
+      "title": "Gérant(e) immobilier (h/f/x), Genève, 80-100%",
+      "company": "Wincasa AG",
       "location": "Genève",
-      "date_posted": "2026-08-29T02:00:05+02:00",
-      "description": "La Coopérative romande de sensibilisation à la gestion des déchets a pour mission de sensibiliser les élèves et le grand public à la gestion des déchets et à la préservation des ressources naturelles. Nous recherchons pour compléter notre équipe un·e Animateur·rice en milieu scolaire (canton de Genève) à 40 % Zone d'activité principale : Genève Nous demandons: expérience professionnelle dans l’animation ou l’éducation auprès d’enfants esprit de synthèse et aptitude à la vulgarisation connaissances du milieu scolaire bonne connaissance des questions environnementales : un atout autonomie, rigueur et sens de l’organisation permis de conduire et voiture indispensables domicile Grand Genève obligatoire Nous offrons: une formation de base et continue de bonnes prestations sociales un poste à temps partiel annualisé (environ 60-70% durant les périodes scolaires) un travail autonome au sein d’une petite équipe, et un cadre de travail convivial Entrée en fonction : 1er novembre 2026 Délai de postulation : 6 septembre 2026 Dossier complet à adresser à COSEDEC par email uniquement : Écrire un email Pour mieux nous connaître et consulter le cahier des charges : www.cosedec.ch Route des Champs Torrens 1 1400 Yverdon-les-Bains",
-      "id": "8aa617f71d22",
+      "date_posted": "2026-08-20T18:15:23+02:00",
+      "description": "ï»¿Wincasa , le prestataire immobilier leader en Suisse, contribue de manière déterminante à la construction de l'avenir du secteur immobilier. Des services numériques, des processus agiles et une méthode de travail intelligente nous caractérisent. Fais partie de notre voyage de transformation et façonne l'avenir de Wincasa. Gérant(e) immobilier (h/f/x), Genève, 80-100% Pour notre site «Résidentiel» à Genève, les locataires ne se sentent pas seulement chez eux - grâce à notre nouvelle répartition des tâches au sein de l'équipe, ils bénéficient également d'un accompagnement optimal et efficace. Cela présente des avantages non seulement pour les locataires et les propriétaires, mais aussi pour toi. Grâce à une spécialisation accrue au sein de l'équipe, nous collaborons plus étroitement et chacun peut se concentrer sur ses points forts. Si tu as la passion de l'immobilier, que tu es motivé-e, orienté-e vers les objectifs et que tu apprécies le travail en équipe, alors nous nous réjouissons de recevoir ta candidature pour le poste de Gérant immobilier (h/f/x) Genève, 80-100% A quoi tu contribues : Tu assumes la gestion complète d'un portefeuille d'immeubles (contrôle et participation à l'établissement des décomptes annuels, établissement des bouclements, traitement des cas juridiques, etc.) Tu es garant-e du suivi exigeant des locataires Tu assures l'exécution et le suivi de l'entretien ordinaire des bâtiments Tu établis des analyses de marché, des rapports, des budgets et des prévisions Tu supervises les tâches des collaborateurs, spécialistes de location et gérants techniques pour ton portefeuille Ce que tu apportes : Tu disposes d'une formation commerciale de base (CFC) avec une formation continue dans le domaine de l'immobilier (Brevet fédéral de Gérant d'immeubles obtenu ou en cours) Tu bénéficies déjà de plusieurs années d'expérience dans une fonction similaire Tu es une personne avec un sens marqué du service et tu disposes d'une grande capacité de négociation Ton professionnalisme, ta persévérance ainsi que ta capacité à t'imposer complètent ton profil Tu maitrises parfaitement le français (allemand et anglais sont un plus) plus Tu travailles aisément avec les outils informatiques (MS Office, GAIARO REM, etc.) Tu as le permis de conduire Voici quelques-uns de nos avantages : Temps de travail : nous vivons le travail mobile avec des heures de travail individuelles (annuelles) et/ou le travail à temps partiel. Home Office possible jusqu'à 40%. La Work-Life-Balance est cruciale chez nous, car des collaborateurs équilibrés et détendus sont importants pour nous. L'achat de vacances supplémentaires est possible Allocation : tu reçois une contribution pour le téléphone portable. Nous versons également une contribution pour tes repas Formation et perfectionnement : l'encouragement des collaborateurs est un élément important de notre culture. Profite d'un soutien généreux pour les formations et perfectionnements internes et externes. Nous offrons des possibilités de plan de carrière dans des fonctions de direction, de spécialistes et de projets Salaire : nous offrons, une rémunération conforme au marché avec une égalité de salaires absolue pour tous les genres. Les prestations de la caisse de pension sont attrayantes et tu peux choisir parmi différents modèles. L'assurance de protection contre les accidents couvre la division privée à l'hôpital #Wincasa",
+      "id": "6d88a39b5919",
       "score": 26,
       "matched_keywords": [],
       "region": "GE",
-      "summary": "La Coopérative romande de sensibilisation à la gestion des déchets a pour mission de sensibiliser les élèves et le grand public à la gestion des déchets et à la préservation des ressources naturelles. Nous recherchons pour compléter notre équipe un·e Animateur·rice en milieu…"
+      "summary": "ï»¿Wincasa , le prestataire immobilier leader en Suisse, contribue de manière déterminante à la construction de l'avenir du secteur immobilier. Des services numériques, des processus agiles et une méthode de travail intelligente nous caractérisent. Fais partie de notre voyage de…"
     },
     {
       "source": "jobup.ch",
@@ -316,20 +312,6 @@
     },
     {
       "source": "jobs.cagi.ch (CAGI)",
-      "url": "https://jobs.cagi.ch/job/dcaf-geneva-centre-for-security-sector-governance-geneva-fixed-term-contract-junior-project-officer-europe-and-asia-2/",
-      "title": "Junior Project Officer (Europe and Asia)",
-      "company": "DCAF – Geneva Centre for Security Sector Governance",
-      "location": "Genève",
-      "date_posted": "2026-08-24T09:56:53+00:00",
-      "description": "DCAF &amp;#8211; Geneva Center for Security Sector Governance",
-      "id": "65b0b7d2ccbc",
-      "score": 26,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "DCAF &amp;#8211; Geneva Center for Security Sector Governance"
-    },
-    {
-      "source": "jobs.cagi.ch (CAGI)",
       "url": "https://jobs.cagi.ch/job/defence-for-children-international-geneva-internship-communications-development-internship-5/",
       "title": "Communications and Development Intern",
       "company": "Defence for Children International",
@@ -369,6 +351,20 @@
       "matched_keywords": [],
       "region": "GE",
       "summary": "Médecins sans Frontières Suisse"
+    },
+    {
+      "source": "jobs.cagi.ch (CAGI)",
+      "url": "https://jobs.cagi.ch/job/msf-ch-geneva-permanent-contract-ureph-researcher/",
+      "title": "UREPH Researcher",
+      "company": "MSF CH",
+      "location": "Genève",
+      "date_posted": "2026-08-24T06:45:46+00:00",
+      "description": "Médecins Sans Frontières",
+      "id": "d5b3485db276",
+      "score": 26,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Médecins Sans Frontières"
     },
     {
       "source": "jobs.cagi.ch (CAGI)",
@@ -415,6 +411,22 @@
       ],
       "region": "GE",
       "summary": "Assistant & Information Management Officer Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some…"
+    },
+    {
+      "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Dnipro-%28DNI%29-Field-Protection-Officer-Dnipro-810533-33239/1434348133/",
+      "title": "Field Protection Officer - Dnipro - 810533",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Field Protection Officer - Dnipro - 810533 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Country All Afghanistan Colombia Ethiopia Global Deployment Option Myanmar Philippines Sudan Switzerland Ukraine Job location All Addis Abeba (ADD) Damazin (DAA) Dnipro (DNI) Geneva (GVA) Global Deployment Option Kharkiv (KHR) Kyiv (KYI) Manila (MAN) Manila Shared Services Centre (MSC) Medellin (MEE) Odesa (ODE) Yangon (YAN) Job category All Administration / Finance / Human Resources Communications / Information Management / Information Technologiesﾠ Economic / Food Security Health Languages Management Protection / Human Rights / IHL / Humanitarian Diplomacy / Detention Water / Sanitation / Habitat Contract type ",
+      "id": "a0178c5137e7",
+      "score": 26,
+      "matched_keywords": [
+        "humanitarian"
+      ],
+      "region": "GE",
+      "summary": "Field Protection Officer - Dnipro - 810533 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some…"
     },
     {
       "source": "careers.icrc.org (CICR)",
@@ -802,17 +814,36 @@
     },
     {
       "source": "jobs.ch",
-      "url": "https://www.jobs.ch/en/vacancies/detail/2a8a7514-b858-48dd-aba5-d3d4bf54b1ab/",
-      "title": "Public Relations Officer",
-      "company": "Embassy of the State of Kuwait",
-      "location": "Bern",
-      "date_posted": "2026-08-06T09:33:34+02:00",
-      "description": "Embassy of the State of Kuwait based in Bern, Switzerland is searching for a professional and energetic person for the position of Public Relations Officer. The Eligibility criterion is as under: - The interested applicant must be fluent in Arabic, English, German and or French languages. - Degree / Diploma from a recognized university - Swiss residence permit (B or C) or Swiss passport holder - Maximum age limit for this position is 45 years. - Minimum 3 years work experience - Prior work experience with an Embassy / Government undertaking would be an added advantage - Candidate should have a pleasing personality and be able to represent the Embassy in a highly professional manner Interested applicants should send their detailed Resume / CV to the given email address. Email: Write an email Embassy of the State of Kuwait Frau Kuwait Embassy 031 356 70 20 Write an email",
-      "id": "5c5ce7066af8",
+      "url": "https://www.jobs.ch/en/vacancies/detail/84ce58ea-7198-4713-860c-508b75718b72/",
+      "title": "Event Manager:in",
+      "company": "Pistor AG",
+      "location": "Rothenburg / Luzern",
+      "date_posted": "2026-08-11T13:49:44+02:00",
+      "description": "Event Manager:in Die Pistor AG ist das führende, unabhängige Handels- und Dienstleistungsunternehmen für Bäckereien-Confiserien, die Gastronomie und für den Gesundheitsmarkt. Modernste Logistik, innovative Ideen, Zuverlässigkeit, nachhaltiges Handeln und jede Menge Herzblut – genau das ist es, womit wir unsere Kunden erfolgreicher machen. Jetzt hast du die Chance, die Erfolgsstory unseres Unternehmens mitzuschreiben. Deine Aufgaben Verantwortung für den Marketing-Kanal \"Events und Live-Kommunikation\" und die dazugehörenden Formate (z.B. Grossanlässe/Messen, Fachtagungen, Inhouse-Events, Sponsoring-Auftritte, Webinare) Verantwortung für die operative Weiterentwicklung der Pistor Live-Kommunikation und der zugeteilten Projekte/Events, abstimmt auf die übergeordneten strategischen Ausrichtungen Selbstständige Projektführung (End-to-End Lead) über alle Veranstaltungs-Phasen (Konzeption, Planung, Koordination, Kommunikation, Umsetzung, Auswertung, Optimierung) Abstimmung/Zusammenarbeit mit internen Anspruchsgruppen und Abteilungen, wie z.B. Verkauf, Beschaffung, Distribution, etc. Sicherstellung einer reibungslosen Ablauforganisation der einzelnen Event-Projekte Vor-Ort Betreuung von Veranstaltungen und mehrtägigen Messen, inkl. Auf-/Abbau (selten auch Wochenend-/Abend-Einsätze) Koordination des Kanals «Events und Live-Kommunikation» als Instrument innerhalb der operativen Marktbearbeitung/Kampagnenplanung, inkl. fachlicher Beratung der Marketing Manager und weiterer Stakeholder Erfolgsmessung der Events/Messen und Erlebnissen Erstellung von Ergebnispräsentationen, Auswertungen und Reportings von Veranstaltungen mit und für unterschiedliche Anspruchsgruppen Aufsetzen, Führen und Kontrollieren von Event-Kampagnen im CRM-Tool Führen von externen Partnern (z.B. Veranstaltungspartner, Sponsorenpartner, Agenturen) Budgetverantwortung für die zugeteilten Projekte sowie transparentes Kostencontrolling Dein Profil Kaufmännische Grundausbildung und adäquate Weiterbildungen im Bereich Marketing/Kommunikation und/oder Eventmanagement Mehrjährige, fundierte Erfahrungen im Eventmanagement (Messe-Erfahrung von Vorteil) Branchenkenntnisse im Bereich Gastronomie und/oder Bäckerei wünschenswert Organisations- und Koordinationstalent Hohe konzeptionelle Fähigkeiten Strukturierte, selbstständige und zuverlässige Arbeitsweise sowie eine ausgeprägte Kommunikationsfähigkeit Hohe Flexibilität, Belastbarkeit und Resilienz Gute körperliche Fitness (Auf-/Abbau, Materialtransport) Passion für zielgerichtete, kundenzentrierte und erlebnisreiche Eventformate Gute schriftliche und mündliche Deutsch- und Englisch-Kenntnisse, Französisch von Vorteil Deine Benefits Entwickle dich weiter: Wir unterstützen deine persönliche und berufliche Entwicklung mit einer Vielzahl interner und externer Weiterbildungen. Für deine Gesundheit: Wir bieten verschiedene intern organisierte Sportaktivitäten und ein preiswertes Personalrestaurant für deine ausgewogene Ernährung. Auf der sicheren Seite: Wir bieten zeitgemässe Sozialleistungen sowie Lohnfortzahlungen und beteiligen dich am Unternehmenserfolg. Gut unterwegs: Du hast Zugang zu vergünstigten Tankmöglichkeiten, einem Personalbus, der dich vom Bahnhof abholt und erhältst Gratiseintritte für Freizeitaktivitäten. Wirken und Wohlfühlen: Du profitierst von kurzen Kommunikationswegen und unserer offenen und wertschätzenden Unternehmenskultur. Das alles in einem modernen Unternehmen, das viel Wert auf Nachhaltigkeit legt. Flexibel und ausbalanciert: Du kannst dein Arbeitsmodell flexibel anpassen, hast mindestens fünf Wochen Ferien und je nach Tätigkeit die Möglichkeit im Homeoffice zu arbeiten. Pistor AG / Human Resources / Ines Gönel Hinweis für Personalvermittler Durch das Hochladen oder Einreichen einer Bewerbung bestätigen Personalvermittler, dass sie unsere aktuellen AGB’s für Personalvermittler gelesen haben und diesen vollumfänglich zustimmen. Jetzt bewerben Facebook LinkedIn Xing Kununu YouTube",
+      "id": "a602307a9730",
+      "score": 0,
+      "matched_keywords": [
+        "crm",
+        "event manager",
+        "sponsoring",
+        "stakeholder"
+      ],
+      "region": "OTHER",
+      "summary": "Event Manager:in Die Pistor AG ist das führende, unabhängige Handels- und Dienstleistungsunternehmen für Bäckereien-Confiserien, die Gastronomie und für den Gesundheitsmarkt. Modernste Logistik, innovative Ideen, Zuverlässigkeit, nachhaltiges Handeln und jede Menge Herzblut –…"
+    },
+    {
+      "source": "jobs.ch",
+      "url": "https://www.jobs.ch/en/vacancies/detail/a38a23dd-a65b-43e2-b65d-8321d59097e1/",
+      "title": "Event Supporter & Eventbau (w/m/d)",
+      "company": "Kongresshaus Zürich AG / Zurich Convention Center Ltd.",
+      "location": "Zürich",
+      "date_posted": "2026-09-01T07:32:38+02:00",
+      "description": "Das Kongresshaus Zürich liegt im pulsierenden Zentrum von Zürich, der Wirtschaftsmetropole der Schweiz. Es verbindet Business, Kultur, Kunst und Gastronomie unter einem Dach zu einem Gesamterlebnis. Das Zürcher Event- und Kongresszentrum bietet Platz für bis zu 4'500 Gäste und ist damit der grösste Veranstaltungsort dieser Art in der Zürcher Innenstadt. Hier treffen bedeutende Architektur, moderne Infrastruktur und exzellenter Service aufeinander. Die Kongresshaus Zürich AG (Zurich Convention Center Ltd.) betreibt und vermarktet das Kongresshaus Zürich sowie das LUX Restaurant &amp; Bar und bietet im gesamten Gebäudekomplex inklusive der Tonhalle Zürich gehobene Gastronomie. Das im Jahr 1985 gegründete und ISO-zertifizierte Unternehmen setzt in der Veranstaltungsindustrie neue Massstäbe im Nachhaltigkeits- und Qualitätsmanagement. Zur weiteren Verstärkung unseres motivierten Event Support Teams, suchen wir per Oktober 2026 oder nach Vereinbarung eine motivierte und kundenorientierte Persönlichkeit. Event Supporter &amp; Eventbau (w/m/d) Job ID: 45020 Ihre neue Aufgabe Installation, Inbetriebnahme und Kontrolle von elektrischen Anlagen und Geräten vor, während und nach Veranstaltungen Lagerlogistik und Pflege des elektrotechnischen Equipments zwischen den Einsätzen Bereitstellung und Transport der Raumausstattung in allen Räumen des Kongresshauses, sowie Be- und Entladungen von Fahrzeugen Sicherheitsbeauftragte Person für Veranstaltungen (SIBE) ist von Vorteil Durchführen von Möblierungen in den Veranstaltungsräumen nach Plan Kleinreparaturen von Eventmaterial &amp; Erfahrungen in Eventbau Verantwortlich für die ordentliche und korrekte Lagerhaltung des Materials Was Sie mitbringen Berufserfahrung in den Bereichen Event Operation, Logistik oder Bühnenbau im handwerklichen Umfeld Abgeschlossene Ausbildung im Bereich Elektrotechnik, Veranstaltungstechnik oder vergleichbare Qualifikation ist von Vorteil Hohe Dienstleistungsbereitschaft und Flexibilität (unregelmässige Arbeitszeiten sowie Abend- und Wochenendeinsätze) Gute räumliche Vorstellungskraft und vernetztes Denken sind sehr wichtig Erfahrung in den Bereichen Event Logistik oder Bühnenbau Solide Kenntnisse der Lagerbewirtschaftung und Lagerhaltung Proaktive und initiative Persönlichkeit Fliessende Deutschkenntnisse und gute Englischkenntnisse von grossem Vorteil Was wir Ihnen bieten Unsere Vorzüge als Arbeitgeberin Vielfältige Entwicklungs- und Weiterbildungsmöglichkeiten 10,5 statt 6 Feiertage pro Jahr Attraktive Vermittlungsprämie Attraktive Fringe Benefits Offene Kommunikation und Kollegialität sind selbstverständlich Arbeiten an einem der schönsten Orte Zürichs Unser \"Way of Work\" Mit Service-Exellence aus Überzeugung begeistern wir unsere Kunden Authentische Gastgeberinnen und Gastgeber zu sein ist unsere Passion Innovation in jeder Hinsicht motiviert uns zu Bestleistungen Noch Fragen? Möchten Sie sich einbringen und die Zukunft der Kongresshaus Zürich AG mitprägen? Dann senden Sie uns Ihre Bewerbungsunterlagen (als PDF-Datei) über unser Bewerberformular unter JETZT BEWERBEN. Für diese Suche berücksichtigen wir keine Bewerbungen von Personalvermittlern. Herr Patrick Biallass Human Resources Manager +41 44 206 36 12 E-Mail schreiben Kongresshaus Zürich AG / Zurich Convention Center Ltd. Gotthardstrasse 5 8002 Zürich",
+      "id": "d8ed6959562f",
       "score": 0,
       "matched_keywords": [],
       "region": "OTHER",
-      "summary": "Embassy of the State of Kuwait based in Bern, Switzerland is searching for a professional and energetic person for the position of Public Relations Officer. The Eligibility criterion is as under: - The interested applicant must be fluent in Arabic, English, German and or French…"
+      "summary": "Das Kongresshaus Zürich liegt im pulsierenden Zentrum von Zürich, der Wirtschaftsmetropole der Schweiz. Es verbindet Business, Kultur, Kunst und Gastronomie unter einem Dach zu einem Gesamterlebnis. Das Zürcher Event- und Kongresszentrum bietet Platz für bis zu 4'500 Gäste und…"
     }
   ]
 }
