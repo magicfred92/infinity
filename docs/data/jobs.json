@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:08:01.049308+00:00",
+  "generated_at": "2026-11-14T12:16:50.002239+00:00",
   "profile": {
     "name": "Frédéric Crousaz",
     "headline": "Event Officer / Coordinateur d'événements & opérations",
@@ -20,7 +20,7 @@
   "source_status": {
     "jobs.ch": {
       "ok": true,
-      "count": 10
+      "count": 9
     },
     "jobup.ch": {
       "ok": true,
@@ -32,7 +32,7 @@
     },
     "careers.icrc.org (CICR)": {
       "ok": true,
-      "count": 40
+      "count": 39
     }
   },
   "jobs": [
@@ -88,22 +88,6 @@
     },
     {
       "source": "jobup.ch",
-      "url": "https://www.jobup.ch/fr/emplois/detail/2a979ff8-8be5-41cb-9cbc-109f511eae39/",
-      "title": "Architecte Solutions Métiers - Genève",
-      "company": "Integraal Data Services",
-      "location": "Genève",
-      "date_posted": "2026-11-09T16:13:35+01:00",
-      "description": "En tant que partenaire de prestigieuses entreprises en suisse romande nous sommes à la recherche d’un(e) Architecte Solutions Métiers passionné(e) et expérimenté(e) pour rejoindre notre équipe dynamique. Rattaché à la direction performance et pilotage projets (PPP), le secteur Architecte Solutions Métiers (ASM) joue un rôle central au sein de l’OCSIN dans la conception, le maintien et l’évolution des solutions métiers qui soutiennent les processus et les stratégies de l’administration cantonale genevoise. Il intervient dans la conception des projets et programmes de l’OCSIN, en collaboration avec les autres architectes et les équipes techniques, afin de garantir des solutions cohérentes avec les stratégies d’architecture et répondant aux exigences métiers. Le secteur accompagne ainsi les métiers et les équipes projets dans la traduction des besoins en architectures de solutions, en prenant en compte les processus métiers, les données, les intégrations entre systèmes ainsi que les exigences de qualité, de sécurité, de performance et de pérennité. Il contribue également à l’évolution et à la modernisation des solutions, à la définition de standards et de patterns réutilisables et à l’anticipation des obsolescences technologiques. Dans ce contexte, le secteur souhaite se renforcer d’un-e architecte des SIC (systèmes d'information et de communication), intervenant de manière transverse sur différents domaines métiers, programmes et projets. Par son expertise en architecture de solutions métiers et son positionnement transversal, l’architecte contribue à assurer la cohérence des solutions avec l’existant, les orientations de l’OCSIN et les trajectoires d’évolution du système d’information. Il participe ainsi à la conception de solutions durables, évolutives et intégrées, tout en accompagnant les métiers et les équipes dans leur mise en oeuvre et leur évolution. Formation Master universitaire en informatique ou diplôme d’ingénieur EPF/HES ou équivalent, complété idéalement par une formation continue de niveau CAS en lien avec la fonction. 5 ans d'expérience dans une fonction similaire. Compétences primordiales Expertise en conception, urbanisation et modélisation de solutions métiers, avec capacité à définir les architectures cibles, à garantir leur cohérence avec les orientations et standards de l’OCSIN et à définir les trajectoires d’évolution du SI Capacité à analyser les besoins métiers, les processus, les données et les interactions entre systèmes, et à les traduire en exigences fonctionnelles et architecturales Maîtrise des architectures trois tiers (3-tiers) et des architectures orientées services, ainsi que des standards d’interopérabilité et des solutions d’API Management Expérience confirmée en architecture modulaire, microservices et containerisation, notamment avec OpenShift, ainsi qu’en pratique des modèles d’architecture hexagonale, DDD et Clean Architecture ; Bonne maîtrise des architectures cloud (IaaS, PaaS, SaaS, CaaS/XaaS) Bonne connaissance des middlewares (serveurs d’application, BPM, moteurs de règles) et des enjeux liés aux environnements Web : sécurité, performance, haute disponibilité et scalabilité Bonne maîtrise des protocoles et mécanismes d'authentification et d’autorisation Capacité à concevoir des architectures résilientes, intégrant les principes de tolérance aux pannes, d’observabilité et de monitoring distribué Bonne maîtrise des pratiques et outils DevOps, notamment CI/CD, IaC, Ansible, Git, ainsi que des mécanismes d’automatisation et d’orchestration Maîtrise des standards Web Components, pour le développement d’interfaces modulaires, réutilisables et maintenables Expertise dans l'identification et la maîtrise des risques, ainsi que dans l'élaboration de plans de mitigation notamment dans le cadre de projets de transformation et de numérisation des processus métiers Sensibilité démontrée aux enjeux de l'expérience utilisateur et à la qualité logicielle Capacité à accompagner les métiers, les équipes projets et les équipes techniques, à vulgariser les choix d’architecture et à défendre les recommandations auprès des instances de décision Excellentes capacités d’analyse, de synthèse et de communication, avec autonomie, rigueur pragmatisme et capacité à travailler dans un environnement matriciel Architecte Solutions Métiers - Genève Compétences importantes Expérience en modélisation (ArchiMate, Orbus iServer, UML 2, BPMN) et en analyse : connaissance de la méthodologie TOGAF et d’ITIL Expérience de la mise en oeuvre de bonnes pratiques de sécurité applicative Pratique d’architectures événementielles Encadrement technique des équipes internes et externes Expérience en Java Expertise en protocoles d'interopérabilité (en particulier SOAP, REST, JMS) Maîtrise des protocoles d'autorisation et d'authentification (OAuth2/OIDC, SAMLv2, Kerberos) Capacité à évaluer des solutions et leur chiffrage Compétences optionnelles Expérience réussie à l'État de Genève Connaissance de l'environnement technique de l'OCSIN Connaissance de la méthode Hermès Expérience réussie dans une organisation de complexité équivalente à une grande administration ou grande entreprise ; Savoir-être Avoir le sens des responsabilités et du contact avec les parties prenantes et les utilisateurs Faire preuve d’esprit d’initiative, être force de proposition et de conviction Se montrer flexible et avoir une capacité d’adaptation Être capable de travailler en équipe dans un environnement Agile et de s’adapter efficacement aux imprévus Excellente qualité rédactionnelle et rigueur dans la documentation Leadership et sens de l'écoute Activités principales Analyser les besoins métiers et les processus et les traduire en exigences fonctionnelles et architecturales Concevoir les architectures fonctionnelles des solutions, les processus métiers, les flux et modèles de données et les intégrations entre systèmes Définir et maintenir les standards et patterns d'architecture pour chaque domaine métier et qualifier les nouvelles technologies Proposer les évolutions des architectures (simplification, modernisation, obsolescence) et produire les feuilles de route associées Assurer l'alignement des architectures avec les stratégies SI, métier et OCSIN Chiffrer les solutions proposées et défendre les dossiers auprès des comités d'arbitrage de l'OCSIN Accompagner les équipes projets et programmes en favorisant la réutilisation des composants et les migrations technologiques Accompagner les utilisateurs et directions métiers (conseil, mentoring, accompagnement au changement) Collaborer avec les autres architectes pour la cohérence architecturale et l'expertise croisée Participer aux revues de service, aux études d'impact et au maintien des référentiels d'architecture Début souhaité de la mission Janvier 2027 Si vous vous reconnaissez dans ce descriptif merci de nous faire parvenir votre candidature par email, (avec curriculum vitae, lettre de motivation, copie des certificats de travail et diplômes). Nous nous réjouissons déjà de faire votre connaissance ! Le poste étant basé à Genève les candidatures locales sont privilégiées. Travailler chez IDS, c’est aussi… Rejoindre une entreprise et une équipe pour qui l’entraide, le professionnalisme, l’engagement, la motivation et la bonne humeur sont essentiels et représentent bien plus qu’une simple adhésion à un lieu de travail. C’est intégrer un environnement où chaque membre joue un rôle important dans le succès collectif. Nous attachons une grande valeur au professionnalisme, en mettant l’accent sur la qualité du travail et le respect des normes éthiques. L’engagement envers nos objectifs et projets est ce qui alimente notre dynamique, et nous encourageons chaque membre de notre équipe à s’investir pleinement dans son rôle. Integraal Data Services est un employeur qui promeut l’égalité des chances. Nous encourageons les candidatures de personnes de tous horizons et origines, nous valorisons la diversité et croyons en un environnement de travail inclusif, tout en respectant les lois et règlements en place. Nous vous encourageons à postuler si vous répondez aux critères requis et à vérifier votre éligibilité en fonction de la réglementation en vigueur.",
-      "id": "135b8071ebb7",
-      "score": 37,
-      "matched_keywords": [
-        "parties prenantes"
-      ],
-      "region": "GE",
-      "summary": "En tant que partenaire de prestigieuses entreprises en suisse romande nous sommes à la recherche d’un(e) Architecte Solutions Métiers passionné(e) et expérimenté(e) pour rejoindre notre équipe dynamique. Rattaché à la direction performance et pilotage projets (PPP), le secteur…"
-    },
-    {
-      "source": "jobup.ch",
       "url": "https://www.jobup.ch/fr/emplois/detail/2d3f752d-774f-4ffc-8df9-c0cffb365fa3/",
       "title": "Un/e chef/fe de projet confirmé/e - Genève",
       "company": "CGC Energie SA",
@@ -134,18 +118,18 @@
       "summary": "Are you looking to orient yourself or retrain in the field of watchmaking? You have a strong interest in the profession of Watchmaking Operator in a production environment. We have several positions to fill: Entry into the World of Watchmaking - 100% - Geneva Main activities:…"
     },
     {
-      "source": "jobs.ch",
-      "url": "https://www.jobs.ch/en/vacancies/detail/2d0eb37c-7bd6-4673-8355-8b0b7db8228e/",
-      "title": "Experienced Sales Advisor M/F, Geneva",
-      "company": "OK JOB SA",
-      "location": "Genève",
-      "date_posted": "2026-11-10T07:34:06+01:00",
-      "description": "Join our dynamic and rapidly expanding team in the hospitality sector! Are you from the catering or hotel industry and looking for a new challenge? Do you want to join an energetic team in full development? We have the opportunity for you! Experienced Sales Advisor M/F, Geneva Who are we? We are looking for an experienced sales advisor to strengthen our team in the Geneva area, specialising in recruitment and talent management for the hospitality sector. Your daily tasks: Actively develop our network through telephone prospecting and field visits. Acquire new clients and identify positions to be filled in Geneva and Vaud. Recruit and select the best talents for permanent and temporary positions. Ensure quality follow-up with clients and retain our temporary staff. What we are looking for in you: Experience in the hospitality sector, ideally in Housekeeping, as well as confirmed and essential experience in recruiting temporary and permanent staff, preferably gained within a placement agency. A true talent for negotiation and business development, with a proactive and professional approach is ESSENTIAL and JUSTIFIED. Good knowledge of the local market (Geneva or Vaud) and hospitality professions is mandatory. Exemplary rigour and a taste for well-done work. Dynamism, organisation, diplomacy and impeccable stress management. Fluency in French (spoken and written) and a B2 level in English or German. Comfortable with IT tools, especially Word and Excel. Ability to multitask and prioritise. Keen to take on the challenge? If you are motivated and ready to contribute to the success of our growing team, then we would be delighted to meet you! Send us your application today and let’s team up to build the future of recruitment in hospitality. Only profiles matching our advertisement will be responded to. Our adverts are gender-neutral. To ensure complete fairness in processing all applications, we do not provide any information by phone. Please send a complete application to: frederique.vast@okjob.ch (up-to-date CV with photo, personalised email/cover letter, work certificates.)",
-      "id": "d3dac322b882",
+      "source": "jobup.ch",
+      "url": "https://www.jobup.ch/fr/emplois/detail/2a934730-00cf-4cdc-88d9-6c7b66fc9911/",
+      "title": "Commercial / Vendeur H/F – Genève",
+      "company": "Matériels Cycloniques Distribution Sàrl",
+      "location": "Perly",
+      "date_posted": "2026-11-14T12:42:05+01:00",
+      "description": "Commercial / Vendeur H/F – Genève Vous aimez le contact humain et souhaitez travailler dans la vente ? XrVAP recherche de nouveaux collaborateurs pour développer son activité dans le canton de Genève. Qui sommes-nous ? Présente sur le marché depuis 2003, XrVAP est spécialisée dans les solutions innovantes dédiées à l'amélioration de l'habitat et à la désinfection écologique. Notre activité repose sur la commercialisation d'un appareil haut de gamme destiné aux particuliers. Votre travail au quotidien Vous serez chargé(e) de rencontrer des particuliers, de leur présenter notre appareil et de réaliser des démonstrations à domicile. Votre objectif sera de faire découvrir ses fonctionnalités, de répondre aux questions des clients et de leur proposer notre solution. Vous bénéficierez d'une formation à nos méthodes de vente ainsi que d'un accompagnement sur le terrain. Ce que nous proposons Une formation complète et gratuite. Un accompagnement sur le terrain. Un fixe conditionnel et des commissions non plafonnées. Les frais de déplacement pris en charge. Une organisation flexible. Des possibilités d'évolution. Votre profil Vous êtes dynamique, motivé(e) et persévérant(e). Vous avez un bon contact avec les gens. Vous êtes à l'aise à l'oral. Une expérience dans la vente est un plus, mais n'est pas obligatoire. Vous maîtrisez parfaitement le français. Vous possédez le permis de conduire et un véhicule personnel (indispensables). &nbsp; Pour découvrir notre entreprise et mieux comprendre notre activité, rendez-vous sur notre site internet : www.xrvap.com &nbsp; Intéressé(e) par cette opportunité ? Vous souhaitez en savoir plus sur le poste et rejoindre notre équipe ? Nous vous invitons à nous transmettre votre CV afin que nous puissions étudier votre candidature.",
+      "id": "ba0048ece195",
       "score": 31,
       "matched_keywords": [],
       "region": "GE",
-      "summary": "Join our dynamic and rapidly expanding team in the hospitality sector! Are you from the catering or hotel industry and looking for a new challenge? Do you want to join an energetic team in full development? We have the opportunity for you! Experienced Sales Advisor M/F, Geneva…"
+      "summary": "Commercial / Vendeur H/F – Genève Vous aimez le contact humain et souhaitez travailler dans la vente ? XrVAP recherche de nouveaux collaborateurs pour développer son activité dans le canton de Genève. Qui sommes-nous ? Présente sur le marché depuis 2003, XrVAP est spécialisée…"
     },
     {
       "source": "jobup.ch",
@@ -225,17 +209,17 @@
     },
     {
       "source": "jobup.ch",
-      "url": "https://www.jobup.ch/fr/emplois/detail/4e0805fe-49e2-48c4-92be-d88b60926f1e/",
-      "title": "Apprenti(e) Gestionnaire commerce de détail à Genève, dès août 2027",
-      "company": "Salt Mobile SA",
-      "location": "Stadt Genf",
-      "date_posted": "2026-11-03T02:02:45+01:00",
-      "description": "Tu vas bientôt terminer ta scolarité obligatoire et tu brûles d'envie de débuter un apprentissage en commerce de détail ? Tu souhaites relever chaque jour de nouveaux défis variés au contact des clients et partager ta passion pour les Télécommunications ? Ça tombe bien! Nous sommes à la recherche de nouveaux talents qui partagent nos intérêts et nos valeurs. Tu cherches à rendre les choses faciles et tu te distingues par tout ce que tu dis et fais ? Si tu te reconnais bien là, alors nous serions heureux de t'accueillir pendant tes trois années d'apprentissage au poste de Gestionnaire de commerce de détail au sein de notre Salt Store de Genève Rhône. Nous te promettons de passer à nos côtés trois années enrichissantes et remplies de moments que tu ne seras pas prêt(e) d'oublier. Apprenti(e) Gestionnaire commerce de détail à Genève, dès août 2027 Tes responsabilités Durant ton apprentissage au poste de vendeur, ta mission consistera principalement à accueillir, conseillez notre clientèle, et à vendre de nouveaux produits et services afin de garantir un service d’exception. Tu veux en savoir plus sur ce poste? Nous te proposons de visionner cette video Tes contributions Ton intérêt pour le commerce et les nouvelles technologies Ta bonne humeur, ton dynamisme et ta flexibilité Tu as le contact facile et parles une autre langue étrangère Tes résultats scolaires sont bons, avec une moyenne générale de 4.5 Tu as réussi le Multicheck de gestionnaire du commerce de détail avec la mention générale «suffisant» (tu ne peux postuler que si tu as le Multicheck). Tu as toujours rêvé de travailler dans un environnement favorisant l’originalité et la diversité ? Si c'est le cas, nous aimerions faire ta connaissance. Pose ta candidature en ligne dès aujourd'hui (seules les demandes posées en ligne accompagnées de lettre de motivation, CV et photo seront prises en considération).",
-      "id": "6de4dc50d957",
+      "url": "https://www.jobup.ch/fr/emplois/detail/1ac60e67-33d0-4018-ba27-62d09c0f7e3c/",
+      "title": "Chapiste qualifié (H/F) – Genève",
+      "company": "Groupe PGN",
+      "location": "Genève",
+      "date_posted": "2026-11-04T00:16:58+01:00",
+      "description": "Profinter Montchoisy recherche des chapistes qualifiés à Genève. Tâches Préparation des supports pour la réalisation des chapes. Réalisation de chapes traditionnelles et fluides sur chantiers. Respect des normes de qualité, sécurité et délais impartis. Compétences Formation dans le bâtiment ou 5 ans d'expérience confirmée. Autonomie et rigueur dans le travail quotidien. Capacité à lire des plans techniques avec précision. Profinter Montchoisy, spécialisée dans le recrutement et le placement de personnel dans le bâtiment et la construction, recherche plusieurs chapistes confirmés (H/F) pour des postes à Genève. Chapiste qualifié (H/F) – Genève Missions principales En tant que chapiste, vous serez en charge de : La préparation des supports (nettoyage, nivelage, isolation) La réalisation de chapes traditionnelles et fluides (ciment, anhydrite, etc.) La pose de bandes périphériques et de joints de dilatation Le lissage et la finition des surfaces selon les exigences du chantier La lecture et l’interprétation des plans techniques Le respect des normes de qualité, de sécurité et des délais Le contrôle du travail réalisé avant livraison du chantier Votre fonction vous amènera à intervenir sur des chantiers résidentiels, tertiaires et publics à Genève et dans la région. Profil recherché Formation dans le bâtiment ou minimum 5 ans d’expérience confirmée en tant que chapiste Expérience réussie en Suisse, idéalement à Genève, obligatoire Bonne maîtrise des différents types de chapes et techniques de pose Personne autonome, rigoureuse et soigneuse Capacité à travailler seul(e) ou en équipe Vous disposez de votre propre outillage Rue Montchoisy 27 1207 Genève",
+      "id": "347d5c116794",
       "score": 26,
       "matched_keywords": [],
       "region": "GE",
-      "summary": "Tu vas bientôt terminer ta scolarité obligatoire et tu brûles d'envie de débuter un apprentissage en commerce de détail ? Tu souhaites relever chaque jour de nouveaux défis variés au contact des clients et partager ta passion pour les Télécommunications ? Ça tombe bien! Nous…"
+      "summary": "Profinter Montchoisy recherche des chapistes qualifiés à Genève. Tâches Préparation des supports pour la réalisation des chapes. Réalisation de chapes traditionnelles et fluides sur chantiers. Respect des normes de qualité, sécurité et délais impartis. Compétences Formation dans…"
     },
     {
       "source": "careers.icrc.org (CICR)",
@@ -292,20 +276,6 @@
       "matched_keywords": [],
       "region": "GE",
       "summary": "Legal Adviser Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Bishkek-%28BIK%29-Data-Manager-1-34124/1456805033/",
-      "title": "Data Manager 1",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "Data Manager 1 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (MUB) Myitkyi",
-      "id": "deea94ceb90c",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "Data Manager 1 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your…"
     },
     {
       "source": "careers.icrc.org (CICR)",
@@ -505,20 +475,6 @@
     },
     {
       "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Administrative-Assistant-34111/1456656133/",
-      "title": "Administrative Assistant",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "Administrative Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (MU",
-      "id": "9d7969563f44",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "Administrative Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
       "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Senior-Internal-Control-Officer-33929/1451946933/",
       "title": "Senior Internal Control Officer",
       "company": "Entreprise non précisée",
@@ -589,6 +545,20 @@
     },
     {
       "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Administrative-Assistant-34111/1456656133/",
+      "title": "Administrative Assistant",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Administrative Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (MU",
+      "id": "9d7969563f44",
+      "score": 23,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Administrative Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact…"
+    },
+    {
+      "source": "careers.icrc.org (CICR)",
       "url": "https://careers.icrc.org/job/Addis-Abeba-%28ADD%29-Radio-Operator-34082/1455852033/",
       "title": "Radio Operator",
       "company": "Entreprise non précisée",
@@ -614,76 +584,6 @@
       "matched_keywords": [],
       "region": "GE",
       "summary": "Open Source Tech Lead Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Geneva-%28GVA%29-Treasury-Business-Analyst-33939/1456100533/",
-      "title": "Treasury Business Analyst",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "Treasury Business Analyst Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (M",
-      "id": "d4a9970d2e7b",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "Treasury Business Analyst Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Business-Analyst-33535/1443145733/",
-      "title": "Business Analyst",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "Business Analyst Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (MUB) Myitk",
-      "id": "447e57241c54",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "Business Analyst Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Global-Mobility-Deployment-Officer-POOLING-2027-34008/1454969733/",
-      "title": "Global Mobility / Deployment Officer- POOLING 2027",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "Global Mobility / Deployment Officer- POOLING 2027 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadi",
-      "id": "59a9166d84d3",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "Global Mobility / Deployment Officer- POOLING 2027 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-PeopleSoft-Finance-ERP-Engineer-33687/1448282733/",
-      "title": "PeopleSoft Finance ERP Engineer",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "PeopleSoft Finance ERP Engineer Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) M",
-      "id": "cdb51cce62c1",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "PeopleSoft Finance ERP Engineer Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may…"
-    },
-    {
-      "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Mogadishu-Banadir-%28MOG%29-COMMUNITY-CONTACT-CENTRE-OPERATOR-%284-POSITIONS%29-34032/1454777133/",
-      "title": "COMMUNITY CONTACT CENTRE OPERATOR (4 POSITIONS)",
-      "company": "Entreprise non précisée",
-      "location": "",
-      "date_posted": null,
-      "description": "COMMUNITY CONTACT CENTRE OPERATOR (4 POSITIONS) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu",
-      "id": "b76b032e42b7",
-      "score": 23,
-      "matched_keywords": [],
-      "region": "GE",
-      "summary": "COMMUNITY CONTACT CENTRE OPERATOR (4 POSITIONS) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining…"
     },
     {
       "source": "careers.icrc.org (CICR)",
@@ -715,17 +615,17 @@
     },
     {
       "source": "careers.icrc.org (CICR)",
-      "url": "https://careers.icrc.org/job/Mubi-%28MUB%29-Generalist-Field-Officer-2-%28800567%29-34039/1456328433/",
-      "title": "Generalist Field Officer 2 (800567)",
+      "url": "https://careers.icrc.org/job/Mogadishu-Banadir-%28MOG%29-WATHAB-WASH-PROJECT-OFFICER-34138/1457272933/",
+      "title": "WATHAB WASH PROJECT OFFICER",
       "company": "Entreprise non précisée",
       "location": "",
       "date_posted": null,
-      "description": "Generalist Field Officer 2 (800567) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MO",
-      "id": "e734ddbc1b21",
+      "description": "WATHAB WASH PROJECT OFFICER Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi ",
+      "id": "db293b92f42f",
       "score": 23,
       "matched_keywords": [],
       "region": "GE",
-      "summary": "Generalist Field Officer 2 (800567) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies…"
+      "summary": "WATHAB WASH PROJECT OFFICER Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may…"
     },
     {
       "source": "careers.icrc.org (CICR)",
@@ -784,6 +684,76 @@
       "summary": "AGRONOMIST Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your…"
     },
     {
+      "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Juba-%28JUB%29-Premises-Manager-2-%28800550%29-33953/1453051533/",
+      "title": "Premises Manager 2 (800550)",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Premises Manager 2 (800550) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi ",
+      "id": "0ae2770bb684",
+      "score": 23,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Premises Manager 2 (800550) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may…"
+    },
+    {
+      "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Business-Analyst-33535/1443145733/",
+      "title": "Business Analyst",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Business Analyst Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (MUB) Myitk",
+      "id": "447e57241c54",
+      "score": 23,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Business Analyst Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your…"
+    },
+    {
+      "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Manila-Shared-Services-Centre-Global-Mobility-Deployment-Officer-POOLING-2027-34008/1454969733/",
+      "title": "Global Mobility / Deployment Officer- POOLING 2027",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Global Mobility / Deployment Officer- POOLING 2027 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadi",
+      "id": "59a9166d84d3",
+      "score": 23,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Global Mobility / Deployment Officer- POOLING 2027 Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that…"
+    },
+    {
+      "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Mogadishu-Banadir-%28MOG%29-Prehospital-Emergency-Care-Field-Officer-34020/1453841433/",
+      "title": "Prehospital Emergency Care Field Officer",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Prehospital Emergency Care Field Officer Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadi",
+      "id": "d0198c8f50e1",
+      "score": 23,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Prehospital Emergency Care Field Officer Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some…"
+    },
+    {
+      "source": "careers.icrc.org (CICR)",
+      "url": "https://careers.icrc.org/job/Juba-%28JUB%29-Buyer-2-%28800475%29-33978/1456042033/",
+      "title": "Buyer 2 (800475)",
+      "company": "Entreprise non précisée",
+      "location": "",
+      "date_posted": null,
+      "description": "Buyer 2 (800475) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in | Careers Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show Fewer Options Loading... Region All Africa Americas Asia & Pacific Europe & Central Asia Europe (HQ) Global Deployment Option Near & Middle-East Country All Afghanistan Belgium Colombia Democratic Republic of the Congo Ecuador Ethiopia France Global Deployment Option Israel Kenya Kyrgyzstan Lebanon Libya Myanmar Nigeria Philippines Serbia Somalia South Sudan Switzerland Ukraine Yemen Job location All Addis Abeba (ADD) Baidoa (BAD) Beirut (BEY) Belgrade Shared Services Centre (BSC) Benghazi (BEH) Bishkek (BIK) Bogota (BOG) Bosaso (BOS) Brussels (BRU) Dnipro (DNI) Geneva (GVA) Global Deployment Option Hpa-an (PAH) JERUSALEM (JER) Jowhar (JOW) Juba (JUB) Logistic-nairobi (LON) Manila (MAN) Manila Shared Services Centre (MSC) Mogadishu-Banadir (MOG) Mubi (MUB) Myitk",
+      "id": "56212d202e74",
+      "score": 23,
+      "matched_keywords": [],
+      "region": "GE",
+      "summary": "Buyer 2 (800475) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your…"
+    },
+    {
       "source": "jobs.ch",
       "url": "https://www.jobs.ch/en/vacancies/detail/5b975910-ae04-4ead-a168-3c84f12fdbd4/",
       "title": "Event Manager (m/f/d) 60%",
@@ -833,22 +803,6 @@
     },
     {
       "source": "jobs.ch",
-      "url": "https://www.jobs.ch/en/vacancies/detail/198bd2b0-dcdf-417e-9c8c-75e8e245cb2d/",
-      "title": "Chief Commercial Officer (CCO)",
-      "company": "Wilhelm AG",
-      "location": "Malters",
-      "date_posted": "2026-11-09T13:32:18+01:00",
-      "description": "Shaping the next growth phase with Stöckli Stöckli Swiss Sports combines Swiss quality from its own manufactory in Malters with a passion for skiing. Firmly established as a love brand in Switzerland and unmistakably positioned as a premium brand internationally in 37 countries, Stöckli relies on a deliberately selective distribution. On this strong foundation, the company aims to grow sustainably and profitably – especially in North America and selected European markets. In the Swiss home market, the close connection with the brand is to be further strengthened and growth pursued selectively. We are looking for an entrepreneurial leader as Chief Commercial Officer (CCO) You will provide decisive impulses for the commercial development of Stöckli. As a member of the executive management, you report directly to the CEO and take overall responsibility for sales, revenue, gross margin, and pricing. A key focus is to consistently exploit the growth potential in the US market and expand Stöckli’s market position. You will strengthen specialist retailers and further develop the company’s own shops as well as e-commerce. Together with your strong team and international sales partners, you will combine commercial success with the ambition to preserve the brand’s special radiance. You bring success in international specialist retail and solid experience in the US market. You understand premium brands, are at home in specialised retail, and know the business with distributors and sales agencies. Ideally, you have gained your US experience on site or with direct responsibility for a US subsidiary. You recognise market opportunities, set clear priorities, and consistently bring projects to completion. As an experienced leader, you inspire people towards common goals. Digitally savvy, you use modern sales tools purposefully. You communicate confidently in German and English and are familiar with the Swiss market. You can expect an executive management role with international impact, where you will build on Stöckli’s strengths with entrepreneurial flair and set smart impulses. Your ambition to continually improve together with others meets the enthusiasm for a distinctive premium brand and your joy of skiing. Do you recognise yourself in this profile? Then Liliane Merk looks forward to receiving your application and is happy to answer any further questions. Please submit your complete application documents via the link below. Wilhelm AG Business Center Andreaspark Hagenholzstrasse 56 8050 Zurich Telephone +41 44 261 50 00 www.wilhelm.ch MA139",
-      "id": "be51171dcab7",
-      "score": 0,
-      "matched_keywords": [
-        "foundation"
-      ],
-      "region": "OTHER",
-      "summary": "Shaping the next growth phase with Stöckli Stöckli Swiss Sports combines Swiss quality from its own manufactory in Malters with a passion for skiing. Firmly established as a love brand in Switzerland and unmistakably positioned as a premium brand internationally in 37 countries,…"
-    },
-    {
-      "source": "jobs.ch",
       "url": "https://www.jobs.ch/en/vacancies/detail/27517ceb-9b6a-49cb-8175-036d8a88dbff/",
       "title": "Event Manager (m/f/d) 100%",
       "company": "Shed Estate AG",
@@ -881,6 +835,23 @@
       ],
       "region": "OTHER",
       "summary": "We are looking for you! Is the person at the centre for you? Are you an experienced leader looking for a somewhat different job? Do you have event blood in your veins? Then you are right with us. &nbsp; In 2029, Switzerland will host the Special Olympics World Winter Games.…"
+    },
+    {
+      "source": "jobs.ch",
+      "url": "https://www.jobs.ch/en/vacancies/detail/39dc0488-149d-420d-b402-dac04726260a/",
+      "title": "Head of Fundraising, Marketing and Prevention 80% (m,f,d)",
+      "company": "Krebsliga Zürich",
+      "location": "Zürich",
+      "date_posted": "2026-11-10T16:02:53+01:00",
+      "description": "You are keen to take on responsibility as head for the strategy and operational management of the Fundraising, Marketing and Prevention department lead and further develop a team of seven committed professionals according to a modern, strength-oriented leadership approach make a concrete contribution through your work to the sustainable financing, visibility and impact of the Cancer League Zurich Then this means for us Strategy : merging and further developing the three teams Fundraising &amp; Events, Marketing &amp; Communication and Prevention &amp; Early Detection into a newly formed department Strategy : developing and advancing the fundraising, marketing and prevention strategy together with the team and in coordination with management Donor and Partnership Management : further development of the CRM as a tool for data-based, personalised relationship management Marketing Automation &amp; Newsletter Marketing : expansion of automated, target group-oriented communication and donor journeys Cross-Channel Marketing and Fundraising : expansion of target group-appropriate, cross-channel communication – from social media to on-site campaigns – using digital storytelling and event and content management Leadership : professional and personnel leadership and development of the team Budget responsibility for the department Close collaboration with other departments of the Cancer League Zurich What distinguishes you Higher education in fundraising, marketing, communication, business administration or comparable At least five years of leadership experience in fundraising or NPO marketing, ideally in the health or social sector Proficient in handling CRM systems, marketing automation platforms and data-driven campaign management Know-how in cross-channel marketing and cross-channel fundraising Communicative, entrepreneurial personality with high initiative Confident appearance before different target groups in German and English, French is an advantage Have we piqued your interest? Then we look forward to receiving your application documents. Daniel Meier, Head of Central Services, will be happy to provide you with further information by phone or email.",
+      "id": "0b1ea6596aba",
+      "score": 0,
+      "matched_keywords": [
+        "budget",
+        "crm"
+      ],
+      "region": "OTHER",
+      "summary": "You are keen to take on responsibility as head for the strategy and operational management of the Fundraising, Marketing and Prevention department lead and further develop a team of seven committed professionals according to a modern, strength-oriented leadership approach make a…"
     },
     {
       "source": "jobs.ch",
